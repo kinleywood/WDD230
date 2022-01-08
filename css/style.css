@@ -1,0 +1,25 @@
+body {
+    max-width: 634px;
+    margin: auto;
+}
+
+header {
+    height: 260px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(234 190 173);
+    border-style: double;
+    border-width: 10px;
+    border-radius: 85px;
+}
+
+header img {
+    grid-column: 1;
+}
+
+header h1 {
+    grid-column: 2 / span 3;
+}
