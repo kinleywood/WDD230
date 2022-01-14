@@ -1,11 +1,13 @@
+/*Change the background color to stretch across the whole page.*/
+
 body {
-  font-size: 16px;
+  font-size: 10px;
   line-height: 1.5;
   font-family: 'IBM Plex Serif', serif;
   max-width: 634px;
   margin: auto;
   color: black;
-  background-color: #F2D4C2;
+  background-color: #fff4ed;
   border-style: double;
   border-width: 10px;
   border-color: #263b40;
@@ -21,17 +23,18 @@ header {
   background-color: #263B40;
 }
 
-header img {
+picture {
   padding: 15px 15px 10px 15px;
 }
 
 h1 {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   margin: 0.15rem;
+  color:#fff4ed;
 }
 
 h2 {
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 ul {
@@ -40,4 +43,13 @@ ul {
 
 p {
   font-family: 'Raleway', sans-serif;;
+}
+
+footer {
+  background-color: #263B40;
+  color:#fff4ed;
+}
+
+footer p {
+  padding-left: 1rem;
 }
