@@ -1,0 +1,61 @@
+body {
+  font-size: 15px;
+  line-height: 1;
+  font-family: 'Raleway', sans-serif;
+  margin: auto;
+  color: black;
+  background-color: #fff4ed;
+  border-style: double;
+  border-width: 10px;
+  border-color: #263b40;
+  padding: 1rem;
+}
+
+header {
+  background-color: #263B40;
+  color: #fff4ed;
+  text-align: center;
+
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Raleway", sans-serif;
+}
+
+img {
+  padding-top: 10px;
+  width: 95%;
+}
+
+h1 {
+  padding-top: 15px;
+}
+
+h2 {
+  padding-bottom: 15px;
+}
+
+p {
+  font-family: "IBM Plex Serif", serif;
+}
+
+section {
+  background-color: #C3E1E8;
+  border: solid #263b40;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+footer {
+  background-color: #263B40;
+  color:#fff4ed;
+  text-align: center;
+  padding: 1px 0px 4px 0px;
+  margin-top: 10px;
+}

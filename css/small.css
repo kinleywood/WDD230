@@ -3,7 +3,7 @@
 body {
   font-size: 10px;
   line-height: 1.5;
-  font-family: 'IBM Plex Serif', serif;
+  font-family: 'Raleway', sans-serif;
   max-width: 634px;
   margin: auto;
   color: black;
@@ -38,18 +38,15 @@ h2 {
 }
 
 ul {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'IBM Plex Serif', serif;
 }
 
 p {
-  font-family: 'Raleway', sans-serif;;
+  font-family: 'IBM Plex Serif', serif;
 }
 
 footer {
   background-color: #263B40;
   color:#fff4ed;
-}
-
-footer p {
-  padding-left: 1rem;
+  text-align: center;
 }

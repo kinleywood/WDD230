@@ -1,0 +1,18 @@
+@media only screen and (min-width: 65em) {
+  body {
+    font-size: 20px;
+  }
+  
+  main {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  main section:nth-child(2) {
+  margin-right: 5px;
+  }
+
+  main section:nth-child(3) {
+    margin-left: 5px;  
+    grid-column: span 1;
+  }
+}
