@@ -21,6 +21,7 @@ header {
 main {
   display: grid;
   grid-template-columns: 1fr;
+  grid-gap: 15px;
 }
 
 h1, h2, h3, h4 {
@@ -41,7 +42,7 @@ h2 {
 }
 
 p {
-  font-family: "IBM Plex Serif", serif;
+  font-family: 'IBM Plex Serif', serif;
 }
 
 section p {
@@ -53,8 +54,6 @@ section p {
 section {
   background-color: #C3E1E8;
   border: solid #263b40;
-  margin-top: 5px;
-  margin-bottom: 5px;
   text-align: center;
 }
 
