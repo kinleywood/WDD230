@@ -1,0 +1,20 @@
+@media only screen and (min-width: 37.5em) {
+  nav {
+    width: 85%;
+    font-size: 0.8rem;
+  }
+  nav ul {
+    display: flex;
+  }
+
+  nav ul li {
+    flex: 1 1;
+  }
+  .personas {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 800px;
+  }
+}
+
+

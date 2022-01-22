@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header,
+footer {
+  background-color: #FF8800;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+header,
+main,
+footer {
+  margin: 0 auto;
+}
+
+header img {
+  background-color: #ffffff;
+  padding: 10px;
+  width: 200px;
+  border-radius: 30px;
+}
+
+h1 {
+  font-family: "Raleway", snas-serif;
+  font-weight: 800;
+  text-align: center;
+}
+
+nav {
+  margin: 0 auto;
+  width: 75%;
+  font-family: "IBM Plex Serif", serif;
+  font-size: 0.9rem;
+}
+
+nav ul {
+  list-style-type: none;
+  overflow: hidden;
+}
+
+nav ul li {
+  background-color: #6fc8ed;
+  border: solid #000000;
+  margin: 0.5rem;
+}
+
+nav ul li a {
+  display: block;
+  color: #000000;
+  text-align: center;
+  padding: 0.5rem;
+  text-decoration: none;
+}
+
+main h2 {
+  font-family: "Raleway", snas-serif;
+  font-weight: 700;
+  padding: 0.5rem 1rem 0rem 2rem;
+}
+
+main p, .demographics, .scenarios{
+  font-family: "IBM Plex Serif", serif;
+  padding: 0.5rem 2rem;
+}
+
+main img {
+  width: 100%;
+  max-width: 354px;
+  padding: 0.5rem 2rem;
+}
+
+.color1 {
+  background-color: #FF8800;
+}
+
+.color2 {
+  background-color: #6FC8ED;
+}
+
+.color3 {
+  background-color: #2B7EA1;
+}
+
+.color4 {
+  background-color: #EDB26F;
+}
+
+.raleway {
+  font-family: "Raleway", sans-serif;
+}
