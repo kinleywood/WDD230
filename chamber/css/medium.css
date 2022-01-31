@@ -1,6 +1,27 @@
 /* screen size at 37.5em */
 @media only screen and (min-width: 37.5em) {
   img.logo {
-    width: 128px;
+    width: 100px;
   }
+  .heading h1 {
+    font-size: 3rem;
+  }
+  .heading h2 {
+    font-size: 1.3rem;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .placeholder .p1 {
+    order:1
+  }
+  .placeholder .p4 {
+    order:2
+  }
+  .spotlightgrp {
+    order: 3;
+  }
+  
 }

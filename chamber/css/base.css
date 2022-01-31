@@ -1,15 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   padding: 0;
   margin: 0;
+  font-family: "IBM Plex Serif", serif;
 }
 
-header {
+header, footer {
   border: 1px solid #000;
   background-color: #FF8800;
 }
 
 .container1, .container2 {
-  padding: 5px 5px;
+  padding: 10px;
   display: flex;
   flex-wrap: wrap;
   align-content: center;
@@ -17,7 +24,14 @@ header {
   max-width: 900px;
   margin: 0 auto;
   grid-gap: 5px;
-  font-size:.5rem;
+}
+
+img.logo {
+  width: 50px;
+  height: auto;
+  background-color: #fff;
+  border-radius: 4px;
+  align-self: center;
 }
 
 .heading {
@@ -29,45 +43,56 @@ header {
 .heading h1, .heading h2 {
   margin:0;
   font-size: 1.3rem;
+  font-family: "Raleway", snas-serif;
+  font-weight: 800;
 }
 
 .heading h2 {
   font-size: 0.9rem;
 }
 
-img.logo {
-  width: 50px;
-  height: auto;
-  background-color: #fff;
-  border-radius: 4px;
+nav {
+  display: flex;
+  grid-gap: 5px;
+  font-family: "IBM Plex Serif", serif;
+  font-size: 0.9rem;
   align-self: center;
 }
 
-.date {
-  display: flex;
-  border: 1px solid rgba(225, 225, 225, 0.75);
-  background-color: rgba(225,225,225,0.5);
-  justify-content:center;
-  margin: 15px 8px;
-  font-size: 0.9rem;
-  padding: 0;
-  line-height: 0;
+.icon {
+  width: 25px;
+  height: auto;
+  align-self: flex-start;
 }
 
 nav button {
-  background: transparent;
-  border: 1px solid rgba(225, 225, 225, 0.75);
+  background-color: black;
+  border: 1px solid black;
+  align-self: flex-start;
+  width: auto;
+  height: 25px;
+  font-size: 1rem;
+  color: white;
+  padding: 0 5px;
 }
 
 nav ul {
   list-style-type: none;
   padding:0;
   margin:0;
+  overflow: hidden;
+  display: none;
+}
+
+nav ul li {
+  background-color: #6fc8ed;
+  border: solid #000000;
+  margin: 0.5rem;
 }
 
 nav ul li a {
   display: block;
-  padding: .8rem 2vw;
+  padding: .5rem .7rem;
   text-decoration: none;
   color: #000;
   border-top: 1px solid rgba(225,225,225,0.5);
@@ -77,10 +102,6 @@ nav ul li a:hover {
   background-color: rgba(225,225,225,0.5);
 }
 
-nav {
-  align-self: center;
-}
-nav ul {display: none;}
 nav ul.open {display: block;}
 
 #hamburgerBtn span:nth-child(1) {display: block;}
@@ -89,15 +110,80 @@ nav ul.open {display: block;}
 #hamburgerBtn.open span:nth-child(1) {display: none;}
 #hamburgerBtn.open span:nth-child(2) {display: block;}
 
-.icon {
-  width: 25px;
-  height: auto;
+.date {
+  display: flex;
+  border: 1px solid rgba(225, 225, 225, 0.75);
+  background-color: rgba(225,225,225,0.5);
+  justify-content:center;
+  margin: 0 8px 15px 8px;
+  font-size: 0.9rem;
+  padding: 0.5rem;
 }
 
 .placeholder{
   border: 1px solid rgba(0,0,0,0.5);
   padding: 10px;
-  height: 100px;
+  height: 200px;
   background-color: #eee;
   margin: 10px 0;
+  font-size: 0.9rem;
 }
+
+.spotlight {
+  margin: 0;
+}
+
+.spotlightgrp {
+  background-color: #eee;
+  border: 1px solid rgba(0,0,0,0.5);
+  padding: 15px 0 15px 15px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  margin-top: 10px;
+  line-height: 1rem;
+}
+
+.logofoot {
+  width: 100px;
+  height: auto;
+  background-color: #fff;
+  border-radius: 4px;
+  align-self: center;
+}
+
+.foot1 {
+  font-size: 0.7rem;
+  border-bottom: 1px solid rgba(225,225,225,0.3);
+  padding-bottom: 10px;
+}
+
+.bigfoot {
+  font-size: 0.8rem;
+}
+.address {
+  line-height: 0.8rem;
+  margin-top: 0.2rem 0;
+}
+
+.web, .number, .map {
+  line-height: 1.5rem;
+}
+
+.map {
+  text-decoration: none;
+  color: black;
+}
+
+.map.pin {
+  width: auto;
+  height: 0.8rem;
+}
+
+.foot2 {
+  font-size: 0.7rem;
+  padding-top: 5px;
+}
+

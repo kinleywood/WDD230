@@ -15,3 +15,9 @@ function toggleMenu() {
 
 const x = document.getElementById("hamburgerBtn");
 x.onclick = toggleMenu;
+
+document.querySelector("#lastmod");
+lastmod.textContent = `Last Modification: ${document.lastModified}`;
+
+document.querySelector("#currentYear");
+currentYear.innerHTML = `&copy ${new Date().getFullYear()} Aberdeen Chamber`;
