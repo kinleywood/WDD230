@@ -7,11 +7,60 @@
   nav ul#primaryNav {
     display: flex;
     margin-left: 2vw;
-    border-left: 1px solid rgba(0, 0, 0, 0.3);
   }
 
   nav ul li a {
     border: none;
     border-right: 1px solid rgba(0, 0, 0, 0.3);
+  }
+
+  .container1{
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  nav .primaryNav {
+    order:1;
+  }
+  .icon:nth-child(1), .icon:nth-child(2) {
+    order:2;
+    align-self: center;
+  }
+  .date {
+    justify-content: center;  
+  }
+  main{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+  .event {
+    grid-area: 1/1;
+  }
+  .weather {
+    grid-area: 2/1;
+  }
+  .join {
+    grid-area: 3/1;
+  }
+  .news {
+    grid-area: 3/2;
+  }
+  .spotlightgrp{
+    grid-row: 1/4;
+    grid-column: 3;
+    flex-direction: column;
+    grid-gap: 0;
+  } 
+  .hero {
+    grid-row: 1/3;
+    grid-column:2;
+    height: 100%;
+  }
+  .spotlight:nth-child(3) {
+    display: block;
+  }
+  .foot2 {
+    max-width: none;
   }
 }

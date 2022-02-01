@@ -21,7 +21,6 @@ header, footer {
   flex-wrap: wrap;
   align-content: center;
   justify-content:flex-start;
-  max-width: 900px;
   margin: 0 auto;
   grid-gap: 5px;
 }
@@ -191,8 +190,9 @@ footer {
 .foot2 {
   font-size: 0.7rem;
   padding-top: 5px;
+  max-width: 500px;
 }
 
-.join {
+.join, .spotlight:nth-child(3) {
   display: none;
 }
