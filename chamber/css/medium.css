@@ -1,5 +1,5 @@
 /* screen size at 37.5em */
-@media only screen and (min-width: 37.5em) {
+@media only screen and (min-width: 37.5em) {  
   img.logo {
     width: 100px;
   }
@@ -39,6 +39,8 @@
   }
   .join {
     order:4;
+    display:block;
+    width: 100%;
   }
 
   .spotlight {
@@ -79,8 +81,5 @@
   }
   .contactUs {
     text-align: center;
-  }
-  .foot1 {
-    
   }
 }
