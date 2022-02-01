@@ -51,6 +51,7 @@
     grid-column: 3;
     flex-direction: column;
     grid-gap: 0;
+    height: 100%;
   } 
   .hero {
     grid-row: 1/3;
