@@ -21,3 +21,8 @@ lastmod.textContent = `Last Modification: ${document.lastModified}`;
 
 document.querySelector("#currentYear");
 currentYear.innerHTML = `&copy ${new Date().getFullYear()} Aberdeen Chamber`;
+
+let join = document.createAttribute("p");
+join.innerHTML = "Join";
+join.setAttribute("class", "placeholder join");
+document.domain.appendChild(join);
