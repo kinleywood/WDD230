@@ -30,12 +30,22 @@
     justify-content: center;  
   }
   main{
-    display: grid;
     grid-template-columns: 1fr 2fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
   }
+  .placeholder h3, .joinButton {
+    font-size: 1.5rem;
+  }
+  h4 {
+    padding-top: 10px;
+    font-size: 1.1rem;
+  }
   .event {
     grid-area: 1/1;
+    justify-content: flex-start;
+  }
+  .event p {
+    padding: 5px;
   }
   .weather {
     grid-area: 2/1;
@@ -45,6 +55,9 @@
   }
   .news {
     grid-area: 3/2;
+  }
+  .placeholder{
+    width: 100%;
   }
   .spotlightgrp{
     grid-row: 1/4;
@@ -58,6 +71,19 @@
     grid-column:2;
     height: 100%;
   }
+
+  .hero picture img {
+    height: 100%;
+    bottom: 0px;
+    width: auto;
+    left: -21px;
+  }
+
+  .hero button {
+    bottom: 50px;
+    right: 30px;
+  }
+
   .spotlight:nth-child(3) {
     display: block;
   }

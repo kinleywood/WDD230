@@ -10,37 +10,51 @@
     font-size: 1.3rem;
   }
   main {
-    flex-wrap: wrap;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 
   .hero {
-    order:1;
-    flex-basis: 100%;
+    grid-column: 1/4;
+    grid-row:1;
+    height: 300px;
   }
+
+
   .news {
-    order: 2;
-    flex-basis: 100%;
+    grid-column: 1/4;
+    grid-row:2;
   }
   .weather {
     order:5;
-    flex-basis:33%;
+    grid-column: 3/4;
+    margin-left:0;
   }
   .event {
     order:5;
-    flex-basis: 65%; 
+    grid-column: 1/3;
+    margin-right: 0;
+    justify-content: space-between;
   }
   .spotlightgrp {
-    order: 3;
-    flex-basis: 100%;
+    grid-column: 1/4;
+    grid-row:3;
     flex-direction: row;
     padding-right: 15px;
-    grid-gap: 5px;
   }
   .join {
-    order:4;
+    grid-column: 1/4;
+    grid-row: 4;
     display:block;
-    width: 100%;
+    background-color: #EDB26F;
+  }
+  .joinButton {
+    border: 5px solid #6fc8ed;
+    background-color: #2B7EA1;
+    border-radius: 20px;
+  }
+  .join p {
+    padding: 10px;
   }
 
   .spotlight {
@@ -82,4 +96,5 @@
   .contactUs {
     text-align: center;
   }
+
 }
