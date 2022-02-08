@@ -49,6 +49,7 @@
   }
   .weather {
     grid-area: 2/1;
+    margin-left: 10px;
   }
   .join {
     grid-area: 3/1;
