@@ -237,7 +237,7 @@ h4 {
   grid-area: 2/1;
   padding-top: 10px;
 }
-.weather #temperature {
+.weather .temperature {
   font-size: 2rem;
   padding-top: 10px;
 }
