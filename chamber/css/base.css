@@ -80,7 +80,6 @@ nav {
 
 nav button {
   background-color: black;
-  border: 1px solid black;
   align-self: flex-start;
   width: auto;
   height: 25px;
