@@ -51,7 +51,12 @@
 
       <section class = "placeholder hero">
         <picture>
-          <img src="images/mainstreet.jpg" alt="Aberdeen Main Street (about 1950-60?) from Yanceyfamilygenealogy.org">
+          
+          <source media="(max-width: 600px)" srcset="images/wdd230-org600.jpg">
+          <source media="(max-width: 960px)" srcset="images/wdd230-org960.jpg">
+          <source media="(min-width: 961px)" srcset="images/wdd230-org1048.jpg">
+          <img src="images/wdd230-org.jpg" alt="Meeting">
+          <!-- <img src="images/wdd230-org600.jpg" alt="Aberdeen Main Street (about 1950-60?) from Yanceyfamilygenealogy.org" srcset="images/wdd230-org600.jpg 600px, images/wdd230-org960.jpg 960px, images/wdd230-org1048.jpg 1048px"> -->
         </picture>
         <h3>
           <strong>Welcome to Aberdeen</strong>
