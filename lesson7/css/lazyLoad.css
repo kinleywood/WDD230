@@ -10,5 +10,5 @@ img[data-src] {
 
 img {
     filter: blur(0em);
-    transition: filter 2s;
+    transition: filter .5s;
 }
