@@ -2,6 +2,16 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: black;
+}
+
+h1 {
+    color: white;
+}
+
+picture {
+    margin: 5px;
+    border: 10px solid white;
 }
 
 img[data-src] {
