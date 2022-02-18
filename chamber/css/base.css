@@ -339,3 +339,33 @@ footer a:hover {
 .spotlight:nth-child(3) {
   display: none;
 }
+
+
+/* discover page */
+.discover {
+  text-align:center;
+  width: 100%;
+}
+.discoverPicture .threeByFour {
+  max-width: 400px;
+  height: 400px;
+}
+.discoverPicture .fourByFour {
+  width:400px;
+  height:400px;
+}
+.discover img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+
+img[data-src] {
+  filter: blur(0.2em);
+}
+
+img {
+  filter: blur(0em);
+  transition: filter .5s;
+}
+
