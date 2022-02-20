@@ -342,6 +342,9 @@ footer a:hover {
 
 
 /* discover page */
+.discover, .placeholder {
+  margin: 0 0;
+}
 .discover {
   text-align:center;
   width: 100%;
@@ -368,4 +371,6 @@ img {
   filter: blur(0em);
   transition: filter .5s;
 }
+
+
 

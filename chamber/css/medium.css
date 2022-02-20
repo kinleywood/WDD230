@@ -98,3 +98,19 @@
   }
 
 }
+
+
+/* discover page */
+.discoverMain {
+  display: flex;
+}
+.discoverMain .left{
+  text-align: left;
+  margin-right: 20px;
+}
+.discoverMain .right{
+  text-align: right;
+}
+.discoverMain picture{
+  margin: 5px 5px 0 5px;
+}
