@@ -20,7 +20,7 @@ body {
 
 header,
 footer {
-  border: 1px solid #000;
+  border-bottom: 1px solid #000;
   background-color: #ff8800;
 }
 
@@ -270,7 +270,6 @@ h4 {
   border: 1px solid rgba(0, 0, 0, 0.5);
   padding: 15px;
   grid-gap: 10px;
-  margin: 0 10px;
 }
 
 .spotlight picture img {
@@ -348,6 +347,7 @@ footer a:hover {
 .discover {
   text-align:center;
   width: 100%;
+
 }
 .discoverPicture .threeByFour {
   max-width: 400px;
@@ -372,5 +372,12 @@ img {
   transition: filter .5s;
 }
 
+.visits {
+  text-align: center;
+  padding: 25px;
+  font-size: 1.5rem;
+}
 
-
+.discoverMain img {
+  border-radius:5px 5px;
+}

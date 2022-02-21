@@ -1,5 +1,10 @@
 /* screen size at 60em */
 @media only screen and (min-width: 60em) {
+  body {
+    max-width: 900px;
+    margin: 0px auto;
+  }
+
   nav button {
     display: none;
   }
@@ -51,7 +56,7 @@
   }
   .weather {
     grid-area: 2/1;
-    margin-left: 10px;
+
   }
   .join {
     grid-area: 3/1;

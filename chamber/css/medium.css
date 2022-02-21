@@ -97,7 +97,7 @@
     text-align: center;
   }
 
-}
+
 
 
 /* discover page */
@@ -107,10 +107,22 @@
 .discoverMain .left{
   text-align: left;
   margin-right: 20px;
+  
 }
 .discoverMain .right{
   text-align: right;
 }
 .discoverMain picture{
   margin: 5px 5px 0 5px;
+}
+.left img {
+  border-radius: 5px 200px;
+}
+.right img {
+  border-radius: 200px 5px;
+}
+
+.discoverMain img:hover {
+  border-radius:5px 5px;
+}
 }
