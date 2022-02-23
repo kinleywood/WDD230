@@ -7,7 +7,8 @@ table {
     border: 1px solid #000000;
     box-shadow: 10px 10px 10px rgb(35, 35, 61);
     border-collapse: collapse;
-
+    max-width: 325px;
+    width: 100%;
 }
 
 th, td {
