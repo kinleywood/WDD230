@@ -40,7 +40,6 @@ img.logo {
   height: auto;
   background-color: #fff;
   border-radius: 4px;
-  align-self: center;
 }
 
 .heading {
@@ -331,7 +330,6 @@ footer a:hover {
 .foot2 {
   font-size: 0.9rem;
   padding-top: 5px;
-  max-width: 500px;
 }
 
 .join,
