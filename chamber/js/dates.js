@@ -34,8 +34,8 @@ switch (day) {
     case 3:
         document.querySelector("#meetAndGreet").style.display = "block";
     break;
-//     default:
-//         document.querySelector("#meetAndGreet").style.display = "none";
+    default:
+        document.querySelector("#meetAndGreet").style.display = "none";
 }
 
 // link the the element with and id of timeBetweenVisits
