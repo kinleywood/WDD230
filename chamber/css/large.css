@@ -98,4 +98,10 @@
   .foot2 {
     max-width: none;
   }
+
+  /* Thank you */
+  .thankYou {
+    grid-row: 2;
+    padding: 0 5px;
+  }
 }

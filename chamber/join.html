@@ -47,58 +47,72 @@
         </div>
     </header>
 
-    <main>
-      <form method="GET" action="thankyou.html">
-        <label for="fname">First Name: 
-          <input type="text" name="fname" id="fname" required>
-        </label>
-        
-        <label for="lname">Last Name: 
-          <input type="text" name="lname" id="lname" required>
-        </label>
+    <main class="joinPage">
+      <section class="joinPage">
+        <h1 class="joinHeader">Aberdeen Chamber Membership Application</h1>
+          <form method="GET" action="thankyou.html">
+            <fieldset>
+              <legend>Applicant Information</legend>
+              <label class="top">First Name: <input type="text" name="fname" id="fname" required></label>
+              <label class="top">Last Name: <input type="text" name="lname" id="lname" required></label>
+              <label class="top">Business Position: <input type="text" name="busPos" id="busPos" pattern="[A-Za-z/-\ / ]{7,}"></label>
+              <label class="top">Email: <input type="email" name="email" id="email" placeholder="something@gmail.com" required></label>
+              <label class="top">Phone Number: <input type="tel" name="tel" id="tel" required></label>
+            </fieldset>
 
-        <label for="busPos">Business Position: 
-          <input type="text" name="busPos" id="busPos" pattern="[A-Za-z/-\ / ]{7,}">
-        </label>
+            <fieldset>
+              <legend>Membership Information</legend>
+              <label for="busName" class="top">Business Name: <input type="text" name="busName" id="busName" required></label>
+              <!-- Display membership level benefits to the side -->
+              <div class="membershipLevel"> Memebership Level:
+                <label class="msl"><input type="radio" name="memLvl" id="np" value="np"> NP $0</label>
+                <label class="msl"><input type="radio" name="memLvl" id="bronze" value="bronze"> Bronze $25</label>
+                <label class="msl"><input type="radio" name="memLvl" id="silver" value="silver"> Silver $50</label>
+                <label class="msl"><input type="radio" name="memLvl" id="gold" value="gold"> Gold $75</label>
+              </div>
+              <label class="top">Business Description:<textarea name="busDesc" id="busDesc" cols="30" rows="10"></textarea></label>
+            </fieldset>
 
-        <label for="email">Email: 
-          <input type="email" name="email" id="email" placeholder="something@gmail.com" required>
-        </label>
+            <input type="submit" value="Become a Member" class="submitBtn">
+          </form>
 
-        <label for="tel">Phone Number: 
-          <input type="tel" name="tel" id="tel" required>
-        </label>
+        <div id="dateAndTime" hidden></div>
+      </section>
 
-        <label for="busName">Business Name: 
-          <input type="text" name="busName" id="busName" required>
-        </label>
-      <!-- Display membership level benefits to the side -->
-       <div class="membershipLevel">
-        <label for="np"> 
-          <input type="radio" name="memLvl" id="np"> NP $0
-        </label>
-
-        <label for="bronze"> 
-          <input type="radio" name="memLvl" id="bronze"> Bronze $25
-        </label>
-
-        <label for="silver"> 
-          <input type="radio" name="memLvl" id="silver"> Silver $50
-        </label>
-
-        <label for="gold"> 
-          <input type="radio" name="memLvl" id="gold"> Gold $75
-        </label>
-      </div>
-
-       <label for="busDesc">Business Description:
-         <textarea name="busDesc" id="busDesc" cols="30" rows="10"></textarea>
-       </label>
-
-        <button type="submit">Become a Member</button>
-      </form>
-
-      <div id="dateAndTime" hidden></div>
+      <section class="membershipBenefits">
+        <h2>Membership Benefits</h2>
+        <div>
+          <h3 class="np">Non Profit Membership</h3>
+          <ul>
+            <li>Integragte yourself into the commumity and build relationships.</li>
+            <li>Company Name on Chamber website.</li>
+            <li>Get the chance to tell your story to the community.</li>
+            <li>Participate on our community fundraisers.</li>
+            <li>Member rates at all chamber events.</li>
+          </ul>
+          <h3 class="bronze">Bronze Membership</h3>
+          <ul>
+            <li>Includes all non profit benefits.</li>
+            <li>Best for small or medium sized businesses</li>
+            <li>Marketing and promotional exposure.</li>
+            <li>Register up to three representatives or employees as members.</li>
+          </ul>
+          <h3 class="silver">Silver Membership</h3>
+            <ul>
+              <li>Includes all non profit and bronze benefits.</li>
+              <li>Best for medium sized businesses.</li>
+              <li>Personalized business introductions.</li>
+              <li>Invitation to chairmans circle for all representatives.</li>
+              <li>Invitation for company representatives to attend Chamber Board dinners and receptions</li>
+            </ul>
+          <h3 class="gold">Gold Membership</h3>
+          <ul>
+            <li>Includes all non profit, bronze, and silver benefits.</li>
+            <li>May be considered to become a guest speaker at chamber events.</li>
+            <li>Introduction to Chamber board durring in-person Board meetings.</li>
+          </ul>
+        </div>  
+      </section>
     </main>
 
     <footer>
