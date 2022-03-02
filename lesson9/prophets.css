@@ -26,6 +26,7 @@ section {
 main {
     background-color: rgb(224, 250, 242);
     padding: 1rem;
+    box-shadow: 5px 5px 5px 5px black;
 }
 
 .grid {
