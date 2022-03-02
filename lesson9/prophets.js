@@ -27,7 +27,7 @@ function displayProphets(prophet) {
 
     // Build the image attributes by using the setAttribute method for the src, alt, and looking attribute values. (Fill in the blank with the appropriate variable.)
     portrait.setAttribute('src', prophet.imageurl);
-    portrait.setAttribute('alt', `Portait of ${prophet.name} ${prophet.lastname} - ${prophet.order} Latter-day President`);
+    portrait.setAttribute('alt', `Portait of ${prophet.name} ${prophet.lastname} - ${prophet.order}${superscript(prophet.order)} Latter-day President`);
     portrait.setAttribute('loading', 'lazy');
 
     // Add/append the section(card) with the h2 element
@@ -38,7 +38,23 @@ function displayProphets(prophet) {
 
     // Add/append the existing HTML div with the cards class with the section(card)
     cards.appendChild(card);
-}
+
+    function superscript(prophet) {switch (prophet) {
+      case 1:
+        return "st"
+          break;
+      case 2:
+         return "nd"
+          break;
+      case 3:
+        return "rd"
+          break;
+      default:
+        return"th"
+          break;
+};};}
+
+
 
 
   
