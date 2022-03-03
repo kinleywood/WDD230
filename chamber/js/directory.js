@@ -1,0 +1,1 @@
+const businesses = "https://susanbsmith.github.io/wdd230/chamber/data/data.json";

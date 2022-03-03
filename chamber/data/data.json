@@ -1,0 +1,194 @@
+[ 
+    {
+        "name": "Stokes Market",
+        "address": "185 N Main St, Aberdeen, ID 83210",
+        "phone": "(208) 397-4186",
+        "website": "https://www.stokesmarket.com/aberdeen/",
+        "image": "images/stokesMarketLogo.png",
+        "hours": {
+            "Monday": "7AM-10PM",
+            "Tuesday": "7AM-10PM",
+            "Wednesday": "7AM-10PM",
+            "Thursday": "7AM-10PM",
+            "Friday": "7AM-10PM",
+            "Saturday": "7AM-10PM",
+            "Sunday": "7AM-10PM"
+        }
+    },
+    {
+        "name": "Krehbiel's Kawasaki and Polaris",
+        "address": "104 S Main St, Aberdeen, ID 83210",
+        "phone": "(208) 397-4704",
+        "website": "http://www.krehbiels.com/",
+        "image": "images/krehbiels_logo.png",
+        "hours": {
+            "Monday": "8AM-6PM",
+            "Tuesday": "8AM-6PM",
+            "Wednesday": "8AM-6PM",
+            "Thursday": "8AM-6PM",
+            "Friday": "8AM-6PM",
+            "Saturday": "8AM-6PM",
+            "Sunday": "CLOSED"
+        }
+    },
+    {
+        "name": "NAPA Auto Parts",
+        "address": "95 S Main St, Aberdeen, ID 83210",
+        "phone": "(208) 397-3630",
+        "website": "https://www.napaonline.com/stores/id/aberdeen/95-s-main?cid=pl_DAC_jobber_AutoPartsOfAberdeen_35965",
+        "image": "images/napaLogo.svg",
+        "hours": {
+            "Monday": "7:30AM-6PM",
+            "Tuesday": "7:30AM-6PM",
+            "Wednesday": "7:30AM-6PM",
+            "Thursday": "7:30AM-6PM",
+            "Friday": "7:30AM-6PM",
+            "Saturday": "8:30AM-5PM",
+            "Sunday": "CLOSED"
+        }
+    },
+    {
+        "name": "Ace Hardware",
+        "address": "123 S Main St, Aberdeen, ID 83210",
+        "phone": "(208) 397-4272",
+        "website": "http://acehardware.com/",
+        "image": "images/aceLogo.svg",
+        "hours": {
+            "Monday": "6AM-11PM",
+            "Tuesday": "6AM-11PM",
+            "Wednesday": "6AM-11PM",
+            "Thursday": "6AM-11PM",
+            "Friday": "6AM-11PM",
+            "Saturday": "6AM-11PM",
+            "Sunday": "8AM-10PM"
+        }
+    },
+    {
+        "name": "Wallace Drug",
+        "address": "44 S Main St, Aberdeen, ID 83210",
+        "phone": "(208) 397-4540",
+        "website": "https://www.wallacedrug.com/",
+        "image": "images/wallaceDrugLogo.png",
+        "hours": {
+            "Monday": "9:30AM-6PM",
+            "Tuesday": "9:30AM-6PM",
+            "Wednesday": "9:30AM-6PM",
+            "Thursday": "9:30AM-6PM",
+            "Friday": "9:30AM-6PM",
+            "Saturday": "8:30AM-1:30PM",
+            "Sunday": "CLOSED"
+        }
+    },
+    {
+        "name": "Driscoll Dental",
+        "address": "81 W Washington Ave, Aberdeen, ID 83210",
+        "phone": "(208) 397-4198",
+        "website": "http://driscolldental.com/",
+        "image": "images/driscoll_dental_logo.png",
+        "hours": {
+            "Monday": "8AM-5PM",
+            "Tuesday": "CLOSED",
+            "Wednesday": "8AM-5PM",
+            "Thursday": "8AM-5PM",
+            "Friday": "CLOSED",
+            "Saturday": "CLOSED",
+            "Sunday": "CLOSED"
+        }
+    },
+    {
+        "name": "Our Place Cafe",
+        "address": "68 S Main St, Aberdeen, ID 83210",
+        "phone": "(208) 397-4981",
+        "website": "http://ourplacecafe.com/",
+        "image": "images/ourPlaceCafeLogo.jpg",
+        "hours": {
+            "Monday": "CLOSED",
+            "Tuesday": "10:30AM-9:30PM",
+            "Wednesday": "10:30AM-9:30PM",
+            "Thursday": "10:30AM-9:30PM",
+            "Friday": "10:30AM-9:30PM",
+            "Saturday": "10:30AM-9:30PM",
+            "Sunday": "CLOSED"
+        }
+    },
+    {
+        "name": "El Jaliciense",
+        "address": "14 N Main St, Aberdeen, ID 83210",
+        "phone": "(208) 397-3907",
+        "website": "https://elJalicense.com/",
+        "image": "images/elJalicenseLogo.jpg",
+        "hours": {
+            "Monday": "8AM-9PM",
+            "Tuesday": "8AM-9PM",
+            "Wednesday": "8AM-9PM",
+            "Thursday": "8AM-9PM",
+            "Friday": "8AM-9PM",
+            "Saturday": "8AM-9PM",
+            "Sunday": "CLOSED"
+        }
+    },
+    {
+        "name": "Kim Wahlen Farms",
+        "address": "2275 2900 West Rd, Aberdeen, ID 83210",
+        "phone": "+12082269906",
+        "website": "http://kimwahlenfarms.com/",
+        "image": "images/kimWahlenFarmsLogo.png",
+        "hours": {
+            "Monday": "8AM-5PM",
+            "Tuesday": "8AM-5PM",
+            "Wednesday": "8AM-5PM",
+            "Thursday": "8AM-5PM",
+            "Friday": "8AM-5PM",
+            "Saturday": "CLOSED",
+            "Sunday": "CLOSED"
+        }
+    },
+    {
+        "name": "Diesel Depot",
+        "address": "1944 S 2800 W, Aberdeen, ID 83210",
+        "phone": "(208) 858-1474",
+        "website": "https://www.diesel-depot.com/",
+        "image": "dieselDepotLogo.webp",
+        "hours": {
+            "Monday": "8AM-5PM",
+            "Tuesday": "8AM-5PM",
+            "Wednesday": "8AM-5PM",
+            "Thursday": "8AM-5PM",
+            "Friday": "8AM-5PM",
+            "Saturday": "CLOSED",
+            "Sunday": "CLOSED"
+        }
+    },
+    {
+        "name": "Pleasant Valley Potato Inc",
+        "address": "275 E Elmore Ave, Aberdeen, ID 83210",
+        "phone": "(208) 397-4194",
+        "website": "http://www.pleasantvalleypotato.com/",
+        "image": "images/pleasantValleyPotatoLogo.png",
+        "hours": {
+            "Monday": "8AM-6PM",
+            "Tuesday": "8AM-6PM",
+            "Wednesday": "8AM-6PM",
+            "Thursday": "8AM-6PM",
+            "Friday": "8AM-6PM",
+            "Saturday": "CLOSED",
+            "Sunday": "CLOSED"
+        }
+    },
+    {
+        "name": "Hazard Creek Golf Course",
+        "address": "419 E Bingham St, Aberdeen, ID 83210",
+        "phone": "(208) 397-5308",
+        "website": "http://www.aberdeenidaho.us/",
+        "image": "images/hazardCreekGolfLogo.png",
+        "hours": {
+            "Monday": "7:30AM-8:30PM",
+            "Tuesday": "7:30AM-8:30PM",
+            "Wednesday": "7:30AM-8:30PM",
+            "Thursday": "7:30AM-8:30PM",
+            "Friday": "7:30AM-8:30PM",
+            "Saturday": "7:30AM-8:30PM",
+            "Sunday": "7:30AM-8:30PM"
+        }
+    }
+]
