@@ -21,66 +21,20 @@ function displayBusiness(business) {
     let phone = document.createElement("p");
     let website = document.createElement("a");
     let logo = document.createElement("img");
-    let hours = docment.createElement("p");
+    let hours = document.createElement("p");
 
     // Change the textContent properties
     name.textContent = business.name;
     address.textContent = business.address;
     phone.textContent = business.phone;
     website.textContent = business.website;
-    hours.textContent = `${todaysHours}`;
+    hours.textContent = `${todaysHours(business)}`;
 
     // Build the image attributes
     logo.setAttribute("src", business.image);
     logo.setAttribute("alt", `Logo of ${business.name}`);
-    log.setAttribute("loading", "lazy");
+    logo.setAttribute("loading", "lazy");
     
-
-    // Get the business hours for today
-    function todaysHours(business) { switch (day) {
-        case 0:
-            if (business.hours[0] = "CLOSED") {
-                return `Closed today`;}
-            else {
-                return `Open from ${business.hours[0]} today.`;}
-        break;
-        case 1:
-            if (business.hours[1] = "CLOSED") {
-                return `Closed today`;}
-            else { 
-                return `Open from ${business.hours[1]} today.`;}
-        break;
-        case 2:
-            if (business.hours[2] = "CLOSED") {
-                return `Closed today`;}
-            else { 
-                return `Open from ${business.hours[2]} today.`;}
-        break;
-        case 3:
-            if (business.hours[3] = "CLOSED") {
-                return `Closed today`;}
-            else { 
-                return `Open from ${business.hours[3]} today.`;}
-        break;
-        case 4:
-            if (business.hours[4] = "CLOSED") {
-                return `Closed today`;}
-            else { 
-                return `Open from ${business.hours[4]} today.`;}
-        break;
-        case 5:
-            if (business.hours[5] = "CLOSED") {
-                return `Closed today`;}
-            else { 
-                return `Open from ${business.hours[5]} today.`;}
-        break;
-        case 6:
-            if (business.hours[6] = "CLOSED") {
-                return `Closed today`;}
-            else { 
-                return `Open from ${business.hours[6]} today.`;}
-        break;
-    };};
 
     // Append to card
     card.appendChild(name);
@@ -92,4 +46,60 @@ function displayBusiness(business) {
 
     // Append to existing HTML
     cards.appendChild(card);
-}
+};
+
+ // Get the business hours for today
+function todaysHours(business) {
+    if (business.hours[day] = "CLOSED") {
+        return "CLOSED TODAY";
+    }
+    else {
+        return `Open from ${business.hours[day]} today.`;
+    };
+};
+
+    // Get the business hours for today
+    // function todaysHours(business) { switch (day) {
+    //     case 0:
+    //         if (business.hours[0] = "CLOSED") {
+    //             return `Closed today`;}
+    //         else {
+    //             return `Open from ${business.hours[0]} today.`;}
+    //     break;
+    //     case 1:
+    //         if (business.hours[1] = "CLOSED") {
+    //             return `Closed today`;}
+    //         else { 
+    //             return `Open from ${business.hours[1]} today.`;}
+    //     break;
+    //     case 2:
+    //         if (business.hours[2] = "CLOSED") {
+    //             return `Closed today`;}
+    //         else { 
+    //             return `Open from ${business.hours[2]} today.`;}
+    //     break;
+    //     case 3:
+    //         if (business.hours[3] = "CLOSED") {
+    //             return `Closed today`;}
+    //         else { 
+    //             return `Open from ${business.hours[3]} today.`;}
+    //     break;
+    //     case 4:
+    //         if (business.hours[4] = "CLOSED") {
+    //             return `Closed today`;}
+    //         else { 
+    //             return `Open from ${business.hours[4]} today.`;}
+    //     break;
+    //     case 5:
+    //         if (business.hours[5] = "CLOSED") {
+    //             return `Closed today`;}
+    //         else { 
+    //             return `Open from ${business.hours[5]} today.`;}
+    //     break;
+    //     case 6:
+    //         if (business.hours[6] = "CLOSED") {
+    //             return `Closed today`;}
+    //         else { 
+    //             return `Open from ${business.hours[6]} today.`;}
+    //     break;
+    // };};

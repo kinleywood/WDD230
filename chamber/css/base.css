@@ -497,3 +497,39 @@ form label.top input:required:valid {
   text-align:center;
   padding: 0 10px;
 }
+
+/* ----------------Directory --------------------- */
+
+.directoryMain p {
+  line-height: .3rem;
+  font-size: 0.85rem;
+}
+
+.directoryMain img {
+  height: 100%;
+  max-height: 200px;
+  margin-bottom: 5px;
+}
+
+.directoryMain section {
+  background-color: aquamarine;
+  border: 1px solid rgb(33, 62, 52);
+  text-align: center;
+  width: 100%;
+  max-width: 1fr;
+}
+
+main .directoryMain {
+  display: flex;
+
+}
+
+.directoryMain .grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 15px;
+  justify-items: center;
+}
+
+
+/* --------------------- Cards -------------------- */
