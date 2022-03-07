@@ -26,6 +26,7 @@ function displayBusiness(business) {
     name.textContent = business.name;
     address.textContent = business.address;
     phone.textContent = business.phone;
+    website.setAttribute("href", business.website);
     website.textContent = business.website;
     hours.textContent = `${todaysHours(business)}`;
 

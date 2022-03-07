@@ -512,8 +512,8 @@ form label.top input:required:valid {
 }
 
 .directoryMain section {
-  background-color: aquamarine;
-  border: 1px solid rgb(33, 62, 52);
+  background-color: #6fc8ed;
+  border: 1px solid #2B7EA1;
   text-align: center;
   width: 100%;
   max-width: 1fr;
@@ -524,12 +524,34 @@ main .directoryMain {
 
 }
 
-.directoryMain .grid {
+
+/* --------------------- Cards -------------------- */
+.directoryMain .cards{
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 15px;
+  align-items: center;
   justify-items: center;
 }
 
+.cards section{
+  padding: 1rem;
+  width: 50%;
+  min-width: 150px;
+  /* text-align: center; */
+}
 
-/* --------------------- Cards -------------------- */
+.directoryMain h2{
+font-size: 1rem;
+}
+
+.directoryMain img{
+  width: 75%;
+  height: auto;
+}
+
+.directoryMain p, .directoryMain a {
+  line-height: .7rem;
+  font-size: .7rem;
+  width: 50%;
+}
