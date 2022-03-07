@@ -1,6 +1,5 @@
 const requestURL = "https://kinleywood.github.io/wdd230/chamber/data/data.json";
 const cards = document.querySelector(".cards");
-// const day = new Date().getDay;
 
 fetch(requestURL)
     .then(function (response) {
@@ -57,49 +56,3 @@ function todaysHours(business) {
         return `Open from ${business.hours[day]} today.`;
     };
 };
-
-    // Get the business hours for today
-    // function todaysHours(business) { switch (day) {
-    //     case 0:
-    //         if (business.hours[0] = "CLOSED") {
-    //             return `Closed today`;}
-    //         else {
-    //             return `Open from ${business.hours[0]} today.`;}
-    //     break;
-    //     case 1:
-    //         if (business.hours[1] = "CLOSED") {
-    //             return `Closed today`;}
-    //         else { 
-    //             return `Open from ${business.hours[1]} today.`;}
-    //     break;
-    //     case 2:
-    //         if (business.hours[2] = "CLOSED") {
-    //             return `Closed today`;}
-    //         else { 
-    //             return `Open from ${business.hours[2]} today.`;}
-    //     break;
-    //     case 3:
-    //         if (business.hours[3] = "CLOSED") {
-    //             return `Closed today`;}
-    //         else { 
-    //             return `Open from ${business.hours[3]} today.`;}
-    //     break;
-    //     case 4:
-    //         if (business.hours[4] = "CLOSED") {
-    //             return `Closed today`;}
-    //         else { 
-    //             return `Open from ${business.hours[4]} today.`;}
-    //     break;
-    //     case 5:
-    //         if (business.hours[5] = "CLOSED") {
-    //             return `Closed today`;}
-    //         else { 
-    //             return `Open from ${business.hours[5]} today.`;}
-    //     break;
-    //     case 6:
-    //         if (business.hours[6] = "CLOSED") {
-    //             return `Closed today`;}
-    //         else { 
-    //             return `Open from ${business.hours[6]} today.`;}
-    //     break;
-    // };};
