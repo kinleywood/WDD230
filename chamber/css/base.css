@@ -511,22 +511,14 @@ form label.top input:required:valid {
   margin-bottom: 5px;
 }
 
-.directoryMain section {
-  background-color: #6fc8ed;
-  border: 1px solid #2B7EA1;
+main.directoryMain {
+  flex-wrap: wrap;
   text-align: center;
-  width: 100%;
-  max-width: 1fr;
-}
-
-main .directoryMain {
-  display: flex;
-
 }
 
 
-/* --------------------- Cards -------------------- */
-.directoryMain .cards{
+/* --------------------- Cards Grid -------------------- */
+.directoryMain .grid.cards{
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 15px;
@@ -534,24 +526,73 @@ main .directoryMain {
   justify-items: center;
 }
 
-.cards section{
+.cards.grid section{
   padding: 1rem;
-  width: 50%;
   min-width: 150px;
-  /* text-align: center; */
+  background-color: #6fc8ed;
+  border: 1px solid #2B7EA1;
+  text-align: center;
+  width: 95%;  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.directoryMain h2{
-font-size: 1rem;
+.cards.grid h2{
+font-size: 2rem;
 }
 
-.directoryMain img{
+.cards.grid img{
   width: 75%;
   height: auto;
+  padding: 10px;
 }
 
-.directoryMain p, .directoryMain a {
+.cards p, .cards a {
   line-height: .7rem;
   font-size: .7rem;
-  width: 50%;
+}
+
+.grid.cards section p:nth-child(6){
+  padding: 20px;
+  font-size: 1.3rem;
+}
+
+/* -------------- Cards List ------------ */
+.cards.list {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.cards.list section{
+  padding: 10px;
+  margin: 0 10px;
+}
+.cards.list section:nth-child(odd) {
+  background-color: #6fc8ed;
+}
+.cards.list section:nth-child(even) {
+  background-color: #ffffff;
+}
+.cards.list img {
+  display: none;
+}
+.cards.list h2 {
+  font-size: 1.1rem;
+}
+
+/* ------------ Buttons ---------------- */
+
+.directoryMain button {
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+  border: none;
+  margin: 0 15px 15px 15px;
+}
+.directoryMain button img {
+  margin-bottom: 0;
+}
+.directoryMain button:hover {
+ cursor: pointer;
 }

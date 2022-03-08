@@ -1,5 +1,8 @@
 const requestURL = "https://kinleywood.github.io/wdd230/chamber/data/data.json";
 const cards = document.querySelector(".cards");
+const gridBtn = document.querySelector(".gridBtn");
+const listBtn = document.querySelector(".listBtn");
+
 
 fetch(requestURL)
     .then(function (response) {
@@ -10,6 +13,7 @@ fetch(requestURL)
         const businesses = jsonObject["businesses"];
         businesses.forEach(displayBusiness);
     });
+
 
 
 function displayBusiness(business) {
@@ -27,6 +31,7 @@ function displayBusiness(business) {
     address.textContent = business.address;
     phone.textContent = business.phone;
     website.setAttribute("href", business.website);
+    website.setAttribute("target", "_blank")
     website.textContent = business.website;
     hours.textContent = `${todaysHours(business)}`;
 
@@ -57,3 +62,14 @@ function todaysHours(business) {
         return `Open from ${business.hours[day]} today.`;
     };
 };
+
+gridBtn.addEventListener("click", () => {
+    cards.classList.add("grid");
+    cards.classList.remove("list");
+});
+
+listBtn.addEventListener("click" , () => {
+    cards.classList.add("list");
+    cards.classList.remove("grid");
+})
+
