@@ -153,5 +153,15 @@ main.joinPage {
   padding: 15px 5px;
 }
 
+/* ------------- Directory ------------- */
+main.directoryMain {
+  display: flex;
+  text-align: center;
+}
+
+/* -------------- Grid ------------------ */
+.directoryMain .cards.grid{
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
 
 }

@@ -498,7 +498,7 @@ form label.top input:required:valid {
   padding: 0 10px;
 }
 
-/* ----------------Directory --------------------- */
+/* ---------------- Directory --------------------- */
 
 .directoryMain p {
   line-height: .3rem;
@@ -522,7 +522,6 @@ main.directoryMain {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 15px;
-  align-items: center;
   justify-items: center;
 }
 
