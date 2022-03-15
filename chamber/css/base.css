@@ -37,15 +37,15 @@ footer {
 
 img.logo {
   width: 50px;
-  height: auto;
+  height: 50px;
   background-color: #fff;
   border-radius: 4px;
+
 }
 
 .heading {
   display: flex;
   flex-direction: column;
-  align-self: center;
   flex: fit-content;
 }
 .heading h1,
@@ -110,7 +110,7 @@ nav ul li a {
   border-top: 1px solid rgba(225, 225, 225, 0.5);
 }
 
-nav ul li a:hover, .hero button:hover{
+nav ul li a:hover{
   background-color: rgba(225, 225, 225, 0.5);
 }
 
@@ -212,7 +212,7 @@ main {
   font-family: "Raleway", sans-serif;
 }
 
-.hero button {
+.hero a {
   position: absolute;
   bottom: 20px;
   right: 20px;
@@ -262,8 +262,22 @@ main {
   text-align: left;
 }
 
+.windSpeed {
+  padding-right: 2.6px;
+  border-right: solid 1px black;
+}
+
+.windChill {
+  padding-left: 2.6px;
+  border-left: solid 1px black;
+}
+
 .news p {
   text-align: left;
+}
+
+.hero a:hover, .join a:hover {
+  background-color: transparent;
 }
 
 .spotlight {
