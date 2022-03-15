@@ -75,6 +75,7 @@ nav {
   width: 25px;
   height: auto;
   align-self: flex-start;
+  margin: 0 10px 10px 10px;
 }
 
 nav button {
@@ -86,6 +87,11 @@ nav button {
   color: white;
   padding: 0 5px;
   border: none;
+  margin: 0 10px 10px 10px;
+}
+
+nav button:hover {
+  cursor: pointer;
 }
 
 nav ul {
@@ -345,6 +351,7 @@ footer {
 footer a {
   text-decoration: none;
   color: black;
+  line-height: 48px;
 }
 
 footer a:hover {
