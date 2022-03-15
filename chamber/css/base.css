@@ -72,22 +72,22 @@ nav {
 }
 
 .icon {
-  width: 25px;
+  width: 38px;
   height: auto;
   align-self: flex-start;
-  margin: 0 10px 10px 10px;
+  margin: 5px;
 }
 
 nav button {
   background-color: black;
   align-self: flex-start;
-  width: 25px;
-  height: 25px;
+  width: 38px;
+  height: 38px;
   font-size: 1rem;
   color: white;
   padding: 0 5px;
   border: none;
-  margin: 0 10px 10px 10px;
+  margin: 5px;
 }
 
 nav button:hover {

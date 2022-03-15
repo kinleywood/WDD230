@@ -10,6 +10,13 @@
   .heading h2 {
     font-size: 1.3rem;
   }
+  .icon {
+    width: 30px;
+  }
+  nav button {
+    width: 30px;
+    height: 30px;
+  }
   main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
