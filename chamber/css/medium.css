@@ -113,26 +113,30 @@
 
 
 
-/* discover page */
+/* -------------- discover page ------------------- */
 .discoverMain {
   display: flex;
 }
+.demographics {
+  max-width: 50%;
+  margin: auto;
+  padding: 20px;
+}
 .discoverMain .left{
   text-align: left;
-  margin-right: 20px;
-  
+  flex-direction: row;
 }
 .discoverMain .right{
   text-align: right;
-}
-.discoverMain picture{
-  margin: 5px 5px 0 5px;
+  flex-direction: row-reverse;
 }
 .left img {
   border-radius: 5px 200px;
+  width: 400px;
 }
 .right img {
   border-radius: 200px 5px;
+  width: 400px;
 }
 
 .discoverMain img:hover {

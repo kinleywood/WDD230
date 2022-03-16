@@ -3,7 +3,7 @@ const timeBetweenVisits = document.querySelector("#timeBetweenVisits");
 
 // get the value stored in local storage.
 let lastVisit = Date.parse(window.localStorage.getItem("visits-ls"));
-// let lastVisit = Date.parse("Sun Feb 20 2022 09:48:13 GMT-0700 (Mountain Standard Time)")
+
 
 if (isNaN(lastVisit) !== true) { 
     timeBetweenVisits.textContent = Math.round((Date.parse(now) - lastVisit) / (1000*60*60*24));

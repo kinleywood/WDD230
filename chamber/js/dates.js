@@ -6,8 +6,6 @@ const now = new Date ();
 const fulldate = new Intl.DateTimeFormat("en-UK", {dateStyle: "full"}).format(now);
 const day = now.getDay();
 
-
-
 datefield.innerHTML = fulldate;
 
 // Toggle hamburger menu
@@ -19,6 +17,7 @@ function toggleMenu() {
 const x = document.getElementById("hamburgerBtn");
 x.onclick = toggleMenu;
 
+// When was the document last modified?
 document.querySelector("#lastmod");
 lastmod.textContent = `Last Modification: ${document.lastModified}`;
 
