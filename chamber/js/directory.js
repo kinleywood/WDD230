@@ -17,6 +17,13 @@ fetch(requestURL)
 
 
 function displayBusiness(business) {
+
+    console.log(business.name);
+    console.log(business.address);
+    console.log(business.phone);
+    console.log(business.image);
+    console.log(business.website);
+    console.log(business.hours);
     // Create elements to add to the document
     let card = document.createElement("section");
     let name = document.createElement("h2");
@@ -33,12 +40,26 @@ function displayBusiness(business) {
     website.setAttribute("href", business.website);
     website.setAttribute("target", "_blank")
     website.textContent = business.website;
-    hours.textContent = `${todaysHours(business)}`;
+    hours.textContent = todaysHours(business);
 
     // Build the image attributes
     logo.setAttribute("src", business.image);
     logo.setAttribute("alt", `Logo of ${business.name}`);
     logo.setAttribute("loading", "lazy");
+
+     // Get the business hours for today
+
+    function todaysHours(business) {
+        let day = now.getDay();
+        console.log(business.hour["0"]);
+        // console.log =(business.hours[day]);
+        // if (business.hours[day] = "CLOSED") {
+        //     return "CLOSED TODAY";
+        // }
+        // else {
+        //     return `Open from ${business.hours[day]} today.`;
+        // };
+};
     
 
     // Append to card
@@ -51,16 +72,7 @@ function displayBusiness(business) {
 
     // Append to existing HTML
     cards.appendChild(card);
-};
 
- // Get the business hours for today
-function todaysHours(business) {
-    if (business.hours[day] = "CLOSED") {
-        return "CLOSED TODAY";
-    }
-    else {
-        return `Open from ${business.hours[day]} today.`;
-    };
 };
 
 gridBtn.addEventListener("click", () => {

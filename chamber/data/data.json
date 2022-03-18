@@ -7,13 +7,13 @@
             "website": "https://www.stokesmarket.com/aberdeen/",
             "image": "images/stokesMarketLogo.png",
             "hours": {
-                "Sunday": "7AM-10PM",
-                "Monday": "7AM-10PM",
-                "Tuesday": "7AM-10PM",
-                "Wednesday": "7AM-10PM",
-                "Thursday": "7AM-10PM",
-                "Friday": "7AM-10PM",
-                "Saturday": "7AM-10PM"
+                "0": "7AM-10PM",
+                "1": "7AM-10PM",
+                "2": "7AM-10PM",
+                "3": "7AM-10PM",
+                "4": "7AM-10PM",
+                "5": "7AM-10PM",
+                "6": "7AM-10PM"
             }
         },
         {
@@ -23,13 +23,13 @@
             "website": "http://www.krehbiels.com/",
             "image": "images/krehbiels_logo.png",
             "hours": {
-                "Sunday": "CLOSED",
-                "Monday": "8AM-6PM",
-                "Tuesday": "8AM-6PM",
-                "Wednesday": "8AM-6PM",
-                "Thursday": "8AM-6PM",
-                "Friday": "8AM-6PM",
-                "Saturday": "8AM-6PM"
+                "0": "CLOSED",
+                "1": "8AM-6PM",
+                "2": "8AM-6PM",
+                "3": "8AM-6PM",
+                "4": "8AM-6PM",
+                "5": "8AM-6PM",
+                "6": "8AM-6PM"
             }
         },
         {
@@ -39,13 +39,13 @@
             "website": "https://www.napaonline.com/stores/id/aberdeen/95-s-main?cid=pl_DAC_jobber_AutoPartsOfAberdeen_35965",
             "image": "images/napaLogo.svg",
             "hours": {
-                "Sunday": "CLOSED",
-                "Monday": "7:30AM-6PM",
-                "Tuesday": "7:30AM-6PM",
-                "Wednesday": "7:30AM-6PM",
-                "Thursday": "7:30AM-6PM",
-                "Friday": "7:30AM-6PM",
-                "Saturday": "8:30AM-5PM"
+                "0": "CLOSED",
+                "1": "7:30AM-6PM",
+                "2": "7:30AM-6PM",
+                "3": "7:30AM-6PM",
+                "4": "7:30AM-6PM",
+                "5": "7:30AM-6PM",
+                "6": "8:30AM-5PM"
             }
         },
         {
@@ -55,13 +55,13 @@
             "website": "http://acehardware.com/",
             "image": "images/aceLogo.svg",
             "hours": {
-                "Sunday": "8AM-10PM",
-                "Monday": "6AM-11PM",
-                "Tuesday": "6AM-11PM",
-                "Wednesday": "6AM-11PM",
-                "Thursday": "6AM-11PM",
-                "Friday": "6AM-11PM",
-                "Saturday": "6AM-11PM"
+                "0": "8AM-10PM",
+                "1": "6AM-11PM",
+                "2": "6AM-11PM",
+                "3": "6AM-11PM",
+                "4": "6AM-11PM",
+                "5": "6AM-11PM",
+                "6": "6AM-11PM"
             }
         },
         {
@@ -71,13 +71,13 @@
             "website": "https://www.wallacedrug.com/",
             "image": "images/wallaceDrugLogo.png",
             "hours": {
-                "Sunday": "CLOSED",
-                "Monday": "9:30AM-6PM",
-                "Tuesday": "9:30AM-6PM",
-                "Wednesday": "9:30AM-6PM",
-                "Thursday": "9:30AM-6PM",
-                "Friday": "9:30AM-6PM",
-                "Saturday": "8:30AM-1:30PM"
+                "0": "CLOSED",
+                "1": "9:30AM-6PM",
+                "2": "9:30AM-6PM",
+                "3": "9:30AM-6PM",
+                "4": "9:30AM-6PM",
+                "5": "9:30AM-6PM",
+                "6": "8:30AM-1:30PM"
             }
         },
         {
@@ -87,13 +87,13 @@
             "website": "http://driscolldental.com/",
             "image": "images/driscoll_dental_logo.png",
             "hours": {
-                "Sunday": "CLOSED",
-                "Monday": "8AM-5PM",
-                "Tuesday": "CLOSED",
-                "Wednesday": "8AM-5PM",
-                "Thursday": "8AM-5PM",
-                "Friday": "CLOSED",
-                "Saturday": "CLOSED"
+                "0": "CLOSED",
+                "1": "8AM-5PM",
+                "2": "CLOSED",
+                "3": "8AM-5PM",
+                "4": "8AM-5PM",
+                "5": "CLOSED",
+                "6": "CLOSED"
             }
         },
         {
@@ -103,13 +103,13 @@
             "website": "http://ourplacecafe.com/",
             "image": "images/ourPlaceCafeLogo.jpg",
             "hours": {
-                "Sunday": "CLOSED",
-                "Monday": "CLOSED",
-                "Tuesday": "10:30AM-9:30PM",
-                "Wednesday": "10:30AM-9:30PM",
-                "Thursday": "10:30AM-9:30PM",
-                "Friday": "10:30AM-9:30PM",
-                "Saturday": "10:30AM-9:30PM"
+                "0": "CLOSED",
+                "1": "CLOSED",
+                "2": "10:30AM-9:30PM",
+                "3": "10:30AM-9:30PM",
+                "4": "10:30AM-9:30PM",
+                "5": "10:30AM-9:30PM",
+                "6": "10:30AM-9:30PM"
             }
         },
         {
@@ -119,13 +119,13 @@
             "website": "https://elJalicense.com/",
             "image": "images/elJalicenseLogo.jpg",
             "hours": {
-                "Sunday": "CLOSED",
-                "Monday": "8AM-9PM",
-                "Tuesday": "8AM-9PM",
-                "Wednesday": "8AM-9PM",
-                "Thursday": "8AM-9PM",
-                "Friday": "8AM-9PM",
-                "Saturday": "8AM-9PM"
+                "0": "CLOSED",
+                "1": "8AM-9PM",
+                "2": "8AM-9PM",
+                "3": "8AM-9PM",
+                "4": "8AM-9PM",
+                "5": "8AM-9PM",
+                "6": "8AM-9PM"
             }
         },
         {
@@ -135,13 +135,13 @@
             "website": "http://kimwahlenfarms.com/",
             "image": "images/kimWahlenFarmsLogo.png",
             "hours": {
-                "Sunday": "CLOSED",
-                "Monday": "8AM-5PM",
-                "Tuesday": "8AM-5PM",
-                "Wednesday": "8AM-5PM",
-                "Thursday": "8AM-5PM",
-                "Friday": "8AM-5PM",
-                "Saturday": "CLOSED"
+                "0": "CLOSED",
+                "1": "8AM-5PM",
+                "2": "8AM-5PM",
+                "3": "8AM-5PM",
+                "4": "8AM-5PM",
+                "5": "8AM-5PM",
+                "6": "CLOSED"
             }
         },
         {
@@ -151,13 +151,13 @@
             "website": "https://www.diesel-depot.com/",
             "image": "images/dieselDepotLogo.webp",
             "hours": {
-                "Sunday": "CLOSED",
-                "Monday": "8AM-5PM",
-                "Tuesday": "8AM-5PM",
-                "Wednesday": "8AM-5PM",
-                "Thursday": "8AM-5PM",
-                "Friday": "8AM-5PM",
-                "Saturday": "CLOSED"
+                "0": "CLOSED",
+                "1": "8AM-5PM",
+                "2": "8AM-5PM",
+                "3": "8AM-5PM",
+                "4": "8AM-5PM",
+                "5": "8AM-5PM",
+                "6": "CLOSED"
             }
         },
         {
@@ -167,13 +167,13 @@
             "website": "http://www.pleasantvalleypotato.com/",
             "image": "images/pleasantValleyPotatoLogo.png",
             "hours": {
-                "Sunday": "CLOSED",
-                "Monday": "8AM-6PM",
-                "Tuesday": "8AM-6PM",
-                "Wednesday": "8AM-6PM",
-                "Thursday": "8AM-6PM",
-                "Friday": "8AM-6PM",
-                "Saturday": "CLOSED"
+                "0": "CLOSED",
+                "1": "8AM-6PM",
+                "2": "8AM-6PM",
+                "3": "8AM-6PM",
+                "4": "8AM-6PM",
+                "5": "8AM-6PM",
+                "6": "CLOSED"
             }
         },
         {
@@ -183,13 +183,13 @@
             "website": "http://www.aberdeenidaho.us/",
             "image": "images/hazardCreekGolfLogo.png",
             "hours": {
-                "Sunday": "7:30AM-8:30PM",
-                "Monday": "7:30AM-8:30PM",
-                "Tuesday": "7:30AM-8:30PM",
-                "Wednesday": "7:30AM-8:30PM",
-                "Thursday": "7:30AM-8:30PM",
-                "Friday": "7:30AM-8:30PM",
-                "Saturday": "7:30AM-8:30PM"
+                "0": "7:30AM-8:30PM",
+                "1": "7:30AM-8:30PM",
+                "2": "7:30AM-8:30PM",
+                "3": "7:30AM-8:30PM",
+                "4": "7:30AM-8:30PM",
+                "5": "7:30AM-8:30PM",
+                "6": "7:30AM-8:30PM"
             }
         }
     ]
