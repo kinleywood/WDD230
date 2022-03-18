@@ -38,7 +38,7 @@ function displayBusiness(business) {
     // Build the image attributes
     logo.setAttribute("src", business.image);
     logo.setAttribute("alt", `Logo of ${business.name}`);
-    logo.setAttribute("loading", "lazy");
+    // logo.setAttribute("loading", "lazy");
 
      // Get the business hours for today
 

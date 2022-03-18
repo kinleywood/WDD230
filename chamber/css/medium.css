@@ -173,9 +173,21 @@ main.directoryMain {
   text-align: center;
 }
 
-/* -------------- Grid ------------------ */
+/* -------------- Directory Grid ------------------ */
 .directoryMain .cards.grid{
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
+/* -------------- Directory List ------------------ */
+.cards.list h2, .cards.list section p:nth-child(3), .cards.list section a {
+  width: 26%;
+  padding: 0 5px;
+}
+.cards.list section p:nth-child(4){
+  width: 17%;
+  padding: 0 5px;
+}
+.cards.list section{
+  flex-direction: row;
+}
 }

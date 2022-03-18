@@ -29,15 +29,15 @@
           <h2>Chamber of Commerce</h2>
         </section>
         <nav>
-          <a href="#"><img class="icon" src="images/facebook.jpg" alt="Facebook Logo" ></a>
-          <a href="#"><img class="icon" src="images/instagram.jpg" alt="Instagram Logo" ></a>
+          <a href="https://www.facebook.com/AberdeenIdahoChamber/" target="_blank"><img class="icon" src="images/facebook.svg" alt="Facebook Logo" ></a>
+          <a href="https://www.instagram.com/explore/locations/247148055/aberdeen-high-school-idaho?hl=en" target="_blank"><img class="icon" src="images/instagram.svg" alt="Instagram Logo" ></a>
           <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
           <ul id="primaryNav">
             <li><a href="index.html">Home</a></li>
             <li><a href="discover.html">Discover</a></li>
             <li><a href="directory.html">Directory</a></li>
             <li class="active"><a href="join.html">Join</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="contact.html">Contact</a></li>
           </ul>
         </nav>
       </div>
@@ -62,12 +62,12 @@
             <fieldset>
               <legend>Membership Information</legend>
               <label for="busName" class="top">Business Name: <input type="text" name="busName" id="busName" required></label>
-              <!-- Display membership level benefits to the side -->
+
               <div class="membershipLevel"> Memebership Level:
-                <label class="msl"><input type="radio" name="memLvl" id="np" value="np"> NP $0</label>
-                <label class="msl"><input type="radio" name="memLvl" id="bronze" value="bronze"> Bronze $25</label>
-                <label class="msl"><input type="radio" name="memLvl" id="silver" value="silver"> Silver $50</label>
-                <label class="msl"><input type="radio" name="memLvl" id="gold" value="gold"> Gold $75</label>
+                <label class="msl"><input type="radio" name="memLvl" id="np" value="np" required> NP $0</label>
+                <label class="msl"><input type="radio" name="memLvl" id="bronze" value="bronze" required> Bronze $25</label>
+                <label class="msl"><input type="radio" name="memLvl" id="silver" value="silver" required> Silver $50</label>
+                <label class="msl"><input type="radio" name="memLvl" id="gold" value="gold" required> Gold $75</label>
               </div>
               <label class="top">Business Description:<textarea name="busDesc" id="busDesc" cols="30" rows="10"></textarea></label>
             </fieldset>
