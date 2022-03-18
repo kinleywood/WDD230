@@ -584,14 +584,20 @@ font-size: 2rem;
   padding: 10px;
 }
 
+.cards.grid a {
+  color: black;
+  padding: 0 10px;
+}
+
 .cards p, .cards a {
-  line-height: .7rem;
+  line-height: 1rem;
   font-size: .7rem;
 }
 
 .grid.cards section p:nth-child(6){
   padding: 20px;
   font-size: 1.3rem;
+  line-height: 1.3rem;
 }
 
 /* -------------- Cards List ------------ */
@@ -603,6 +609,9 @@ font-size: 2rem;
 .cards.list section{
   padding: 10px;
   margin: 0 10px;
+  display: flex;
+  flex-direction: row;
+  
 }
 .cards.list section:nth-child(odd) {
   background-color: #6fc8ed;
@@ -616,6 +625,10 @@ font-size: 2rem;
 .cards.list h2 {
   font-size: 1.1rem;
 }
+.cards.list section p:nth-child(6){
+  display: none;
+}
+
 
 
 /* ------------ Buttons ---------------- */
