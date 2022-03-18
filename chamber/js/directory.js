@@ -9,7 +9,7 @@ fetch(requestURL)
         return response.json();
     })
     .then(function (jsonObject) {
-        console.table(jsonObject); 
+        // console.table(jsonObject); 
         const businesses = jsonObject["businesses"];
         businesses.forEach(displayBusiness);
     });
@@ -44,14 +44,12 @@ function displayBusiness(business) {
 
     function todaysHours(business) {
         let day = now.getDay();
-        console.log(business.hours[day]);
-        // console.log =(business.hours[day]);
-        // if (business.hours[day] = "CLOSED") {
-        //     return "CLOSED TODAY";
-        // }
-        // else {
-        //     return `Open from ${business.hours[day]} today.`;
-        // };
+        if (business.hours[day] == "CLOSED") {
+            return "CLOSED TODAY";
+        }
+        else {
+            return `Open from ${business.hours[day]} today.`;
+        };
 };
     
 
