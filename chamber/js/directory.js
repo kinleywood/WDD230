@@ -17,13 +17,6 @@ fetch(requestURL)
 
 
 function displayBusiness(business) {
-
-    console.log(business.name);
-    console.log(business.address);
-    console.log(business.phone);
-    console.log(business.image);
-    console.log(business.website);
-    console.log(business.hours);
     // Create elements to add to the document
     let card = document.createElement("section");
     let name = document.createElement("h2");
@@ -51,7 +44,7 @@ function displayBusiness(business) {
 
     function todaysHours(business) {
         let day = now.getDay();
-        console.log(business.hour["0"]);
+        console.log(business.hours[day]);
         // console.log =(business.hours[day]);
         // if (business.hours[day] = "CLOSED") {
         //     return "CLOSED TODAY";
