@@ -16,6 +16,7 @@
   nav button {
     width: 30px;
     height: 30px;
+    font-size: 1.5rem;
   }
   main {
     display: grid;
@@ -161,10 +162,12 @@ main.joinPage {
 
 /* -------------- Thank you -------------- */
 .thankYou {
-  grid-column: span 3;
   max-width: 600px;
   margin: 0 auto;
   padding: 15px 5px;
+}
+.thankYouMain {
+  display: flex;
 }
 
 /* ------------- Directory ------------- */

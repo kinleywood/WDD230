@@ -7,7 +7,7 @@
     <title>Thank You</title>
     <meta
       name="description"
-      content="Aberdeen Chamber of Commerce Thank You for Joining"
+      content="Aberdeen Chamber of Commerce Contact Us"
       />
     <link rel="shortcut icon" href="images/favicon.ico">
     <link rel="stylesheet" href="css/normalize.css">
@@ -36,8 +36,8 @@
             <li><a href="index.html">Home</a></li>
             <li><a href="discover.html">Discover</a></li>
             <li><a href="directory.html">Directory</a></li>
-            <li class="active"><a href="join.html">Join</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="join.html">Join</a></li>
+            <li class="active"><a href="contact.html">Contact</a></li>
           </ul>
         </nav>
       </div>
@@ -46,10 +46,44 @@
         </div>
     </header>
 
-    <main class="thankYouMain">
-      <h1 class="thankYou">Thank You for Joining the Aberdeen Chamber of Commerce!</h1>
-      
-      <a class="backBtn" href="../chamber">Back to Home</a>
+    <main class="contactMain">
+      <form method="GET" action="thankyou.html">
+            <fieldset>
+              <legend>Contact Us</legend>
+              <label class="top">First Name: <input type="text" name="fname" id="fname" required></label>
+              <label class="top">Last Name: <input type="text" name="lname" id="lname" required></label>
+              <label class="top">Email: <input type="email" name="email" id="email" placeholder="something@gmail.com" required></label>
+              <label class="top">Message<textarea name="message" id="message" cols="30" rows="10" required></textarea></label>
+            </fieldset>
+
+            <input type="submit" value="Send Message" class="submitBtn">
+          </form>
+
+      <section class="visitUs">
+        <h2>Visit Us</h2>
+        <p>Aberdeen Chamber of Commerce<br>
+        33 N Main St, Aberdeen, ID 83210<br><br>
+        Monday–Wednesday: 9:00am–5:00pm </p>
+      </section>
+
+      <section class="pointsOfContact">
+        <h2>Points of Contact</h2>
+        <div class="person">
+          <p>Jane Ward</p>
+          <p>President</p>
+          <p>(208) 123-9834</p>
+        </div>
+        <div class="person">
+          <p>Melanie Peterson</p>
+          <p>Vice President</p>
+          <p>(208) 438-9321</p>
+        </div>
+        <div class="person">
+          <p>Debbie Elis</p>
+          <p>Human Resources</p>
+          <p>(208) 793-0863</p>
+        </div>
+      </section>
     </main>
 
     <footer>

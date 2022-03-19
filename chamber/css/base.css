@@ -541,7 +541,9 @@ form label.top input:required:valid {
   border: 1px solid black;
   height: 34px;
   text-align: center;
-  background-color:#6fc8ed;
+  background-color: #6fc8ed;
+  width: 50%;
+  margin: 0 auto;
 }
 /* ---------------- Directory --------------------- */
 
@@ -596,6 +598,7 @@ font-size: 2rem;
 .cards.grid a {
   color: black;
   padding: 0 10px;
+  word-wrap: break-word;
 }
 
 .cards p, .cards a {
@@ -638,8 +641,9 @@ font-size: 2rem;
 .cards.list section p:nth-child(6){
   display: none;
 }
-
-
+.cards.list a {
+  word-wrap: break-word;
+}
 
 
 /* ------------ Buttons ---------------- */
@@ -656,4 +660,29 @@ font-size: 2rem;
 }
 .directoryMain button:hover {
  cursor: pointer;
+}
+
+/* ------------- Contact Us ---------------- */
+.visitUs, .pointsOfContact {
+  padding: 5px;
+  text-align: center;
+  background-color:#6fc8ed;
+}
+
+.contactMain h2 {
+  padding-bottom: 10px;
+}
+
+.pointsOfContact .person {
+  padding: 15px 0;
+}
+.pointsOfContact p:nth-child(1) {
+  font-size: 1.2rem;
+}
+.pointsOfContact p:nth-child(2) {
+  font-size: .9rem;
+}
+.pointsOfContact p:nth-child(3) {
+  font-size: 1rem;
+  padding-top: 5px;
 }
