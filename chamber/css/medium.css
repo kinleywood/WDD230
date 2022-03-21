@@ -193,4 +193,19 @@ main.directoryMain {
 .cards.list section{
   flex-direction: row;
 }
+
+/* ------------- Contact Us ---------------- */
+.contactMain {
+  grid-template-columns: 1fr 1fr;
+  max-height: 700px;
+}
+.contactMain form {
+  grid-column: span 1;
+  margin: 0 0;  
+}
+.visitUs {
+  grid-column: span 2;
+  grid-row: 2;
+  height: 128px;
+}
 }
