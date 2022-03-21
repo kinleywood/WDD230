@@ -38,7 +38,7 @@ footer {
 img.logo {
   width: 50px;
   height: 50px;
-  background-color: #fff;
+  background-color: white;
   border-radius: 4px;
 
 }
@@ -154,7 +154,7 @@ main {
   padding: 10px 0;
 }
 .placeholder {
-  border: 2px #edb26f;
+  border: 2px #fcd7ab;
   padding: 10px;
   height: auto;
   background-color: #2b7ea1;
@@ -231,7 +231,7 @@ main {
 }
 
 .backgroundTan {
-  background-color: #edb26f;
+  background-color: #fcd7ab;
   padding: 5px;
   margin: 15px 5px 5px 5px;
 }
@@ -323,7 +323,7 @@ footer {
 .logofoot {
   width: 100px;
   height: auto;
-  background-color: #fff;
+  background-color: white;
   border-radius: 4px;
   align-self: center;
 }
@@ -420,7 +420,7 @@ img {
 
 main.joinPage {
   align-items: center;
-  background-color: #2B7EA1;
+  background-color: #2b7ea1;
   margin: 10px 0;
   padding: 15px
 }
@@ -576,7 +576,7 @@ main.directoryMain {
   padding: 1rem;
   min-width: 150px;
   background-color: #6fc8ed;
-  border: 1px solid #2B7EA1;
+  border: 1px solid #2b7ea1;
   text-align: center;
   width: 95%;  
   display: flex;
@@ -629,7 +629,7 @@ font-size: 2rem;
   background-color: #6fc8ed;
 }
 .cards.list section:nth-child(even) {
-  background-color: #ffffff;
+  background-color: white;
 }
 .cards.list img {
   display: none;

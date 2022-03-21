@@ -58,11 +58,11 @@
     grid-column: 1/4;
     grid-row: 4;
     display:block;
-    background-color: #EDB26F;
+    background-color: #fcd7ab;
   }
   .joinButton {
     border: 5px solid #6fc8ed;
-    background-color: #2B7EA1;
+    background-color: #2b7ea1;
     border-radius: 20px;
     display: block;
     width: 100%;
