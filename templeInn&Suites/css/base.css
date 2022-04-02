@@ -1,0 +1,143 @@
+body {
+  font-family: "Nunito Sans", serif;
+}
+h1,
+h2 {
+  font-family: "playfair Display", serif;
+}
+.button {
+  border: 4px solid #6ccefc;
+	background-color: #f4c1d8;
+	padding: 10px;
+	border-radius: 30px;
+	text-decoration: none;
+	color: black;
+}
+/* ---------------- Header ---------------- */
+/* ------------- Nav ----------------- */
+header {
+  border: 5px solid #6ccefc;
+}
+header.open {
+  border-bottom: none;
+}
+header div:nth-child(1) {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+button:hover {
+  cursor: pointer;
+}
+#hamburgerBtn {
+  margin: 10px;
+  background-color: #f4c1d8;
+  border: none;
+  font-size: 1.9rem;
+  align-self: flex-start;
+  width: 38px;
+  height: 38px;
+  padding: 0 5px;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: none;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+}
+nav ul li {
+  background-color: #6ccefc;
+}
+nav ul li a {
+  display: block;
+  padding: 0.5rem 0.7rem;
+  text-decoration: none;
+  color: #000;
+  border-top: 2px solid rgba(0, 0, 0, 0.5);
+}
+nav ul li.active a {
+  background-color: rgba(225, 225, 225, 0.5);
+}
+nav ul li a:hover, .button:hover {
+  background-color: rgba(225, 225, 225, 0.7);
+}
+nav ul.open {
+  display: block;
+}
+#hamburgerBtn span:nth-child(1) {
+  display: block;
+}
+#hamburgerBtn span:nth-child(2) {
+  display: none;
+}
+#hamburgerBtn.open span:nth-child(1) {
+  display: none;
+}
+#hamburgerBtn.open span:nth-child(2) {
+  display: block;
+}
+/* ------------- Logo ------------------- */
+img.logo {
+  width: 125px;
+  height: auto;
+  margin: 10px;
+}
+
+h1 {
+  font-size: 2rem;
+  font-style: italic;
+  margin: 10px;
+}
+
+/* --------------------- Main ---------------- */
+.holinessToTheLord img {
+  width: 100%;
+  opacity: 50%;
+}
+.callToAction {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+section {
+	position: relative;
+}
+
+/* -------------- Footer ------------------ */
+footer {
+  display: grid;
+  grid-template-columns: 110px 1fr;
+  border: 5px solid #6ccefc;
+  font-size: 12px;
+}
+footer .logo {
+  width: 100px;
+  margin: 10px 10px 0 10px;
+}
+.socialMedia {
+  grid-column: 1;
+  padding: 10px 0 7px 10px;
+}
+.socialMedia img {
+  width: 48px;
+  height: auto;
+}
+.headquarters {
+  grid-column: 2;
+  grid-row: 1/3;
+  background-color: #6ccefc;
+  padding: 10px;
+  margin: 10px;
+}
+footer p {
+  margin-block-start: 0px;
+  margin-block-end: 10px;
+}
+.lastModified {
+  grid-column: span 2;
+  padding: 10px;
+  background-color: #f4c1d8;
+  margin: 0 10px;
+}

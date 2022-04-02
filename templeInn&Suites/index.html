@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Temple Inn & Suites</title>
+    <meta
+      name="description"
+      content="Temple Inn & Suites Hotel Chain. We are the perfect place to stay if you are on a youth trip or you are a temple patron or worker. Book a room with us and you won't be disappointed. We have changing rooms for those that need to change into or out of temple clothes, free breakfast, an indoor pool, and more!"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Playfair+Display:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <script defer src="js/headerFooter.js"></script>
+  </head>
+  <body>
+
+    <header>
+			<div>
+				<div>
+					<img class="logo"
+					src="images/templeInn&SuitesLogo.svg"
+					alt="Temple Inn & Suites Logo"/>
+					<h1>Temple Inn & Suites</h1>
+				</div>
+				<button id="hamburgerBtn">
+					<span>☰</span>
+					<span>X</span>
+				</button>
+			</div>
+
+      <nav>
+        <ul id="primaryNav"> 
+          <li class="active"><a href=".">Home</a></li>
+          <li><a href="temples.html">Temples</a></li>
+          <li><a href="reservations.html">Reservations</a></li>
+          <li><a href="services.html">Services</a></li>
+        </ul>
+      </nav> 
+    </header>
+
+    <main>
+      <section>
+				<picture class="holinessToTheLord">
+          <source media="(max-width: 320px)" srcset="images/HolinessToTheLord320px.jpg">
+          <source media="(max-width: 640px)" srcset="images/HolinessToTheLord640px.jpg">
+          <source media="(min-width: 1280px)" srcset="images/HolinessToTheLord1280px.jpg">
+          <img src="images/HolinessToTheLord1280px.jpg" alt="'Holiness To The Lord The House Of The Lord' Inscription near the entrance of the Salt Lake Temple By Ben P L">
+        </picture>
+        <a class="callToAction button" href="reservations.html">Make a reservation today!</a>
+      </section>
+    </main>
+
+    <footer>
+      <picture>
+        <img class="logo" src="images/templeInn&SuitesLogo.png" alt="Temple Inn & Suites Logo"/>
+      </picture>
+      <div class="socialMedia">
+        <picture><a href="https://www.facebook.com" target="_blank"><img src="images/facebook.png" alt="Facebook Logo"></a></picture>
+        <picture><a href="https://www.instagram.com" target="_blank"><img src="images/instagram.png" alt="Instagram Logo"></a></picture>
+      </div>
+      <div class="headquarters">
+        <p>Headquarters: </p>
+        <p> 8120 Wisconsin Ave, Bethesda, MD 20814</p>
+        <p>(301) 652-2000</p>
+      </div>
+      <div class="lastModified">
+        <p id="currentYear">&copy; year</p>
+        <p id="lastmod">Date</p>
+      </div>
+    </footer>
+  </body>
+</html>

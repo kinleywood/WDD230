@@ -1,0 +1,12 @@
+@media only screen and (min-width: 60em) {
+  h1 {
+    font-size: 3rem;
+  }
+  nav a {
+    font-size: 1.1rem;
+	}
+  .wireframeSection {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}

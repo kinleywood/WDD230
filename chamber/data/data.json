@@ -14,7 +14,8 @@
                 "4": "7AM-10PM",
                 "5": "7AM-10PM",
                 "6": "7AM-10PM"
-            }
+            },
+            "membership": "gold"
         },
         {
             "name": "Krehbiel's",
@@ -30,7 +31,8 @@
                 "4": "8AM-6PM",
                 "5": "8AM-6PM",
                 "6": "8AM-6PM"
-            }
+            },
+            "membership": "gold"
         },
         {
             "name": "NAPA Auto Parts",
@@ -46,7 +48,8 @@
                 "4": "7:30AM-6PM",
                 "5": "7:30AM-6PM",
                 "6": "8:30AM-5PM"
-            }
+            },
+            "membership": "gold"
         },
         {
             "name": "Ace Hardware",
@@ -62,7 +65,8 @@
                 "4": "6AM-11PM",
                 "5": "6AM-11PM",
                 "6": "6AM-11PM"
-            }
+            },
+            "membership": "silver"
         },
         {
             "name": "Wallace Drug",
@@ -78,7 +82,8 @@
                 "4": "9:30AM-6PM",
                 "5": "9:30AM-6PM",
                 "6": "8:30AM-1:30PM"
-            }
+            },
+            "membership": "silver"
         },
         {
             "name": "Driscoll Dental",
@@ -94,7 +99,8 @@
                 "4": "8AM-5PM",
                 "5": "CLOSED",
                 "6": "CLOSED"
-            }
+            },
+            "membership": "silver"
         },
         {
             "name": "Our Place Cafe",
@@ -110,7 +116,8 @@
                 "4": "10:30AM-9:30PM",
                 "5": "10:30AM-9:30PM",
                 "6": "10:30AM-9:30PM"
-            }
+            },
+            "membership": "bronze"
         },
         {
             "name": "El Jaliciense",
@@ -126,7 +133,8 @@
                 "4": "8AM-9PM",
                 "5": "8AM-9PM",
                 "6": "8AM-9PM"
-            }
+            },
+            "membership": "bronze"
         },
         {
             "name": "Kim Wahlen Farms",
@@ -142,7 +150,8 @@
                 "4": "8AM-5PM",
                 "5": "8AM-5PM",
                 "6": "CLOSED"
-            }
+            },
+            "membership": "bronze"
         },
         {
             "name": "Diesel Depot",
@@ -158,7 +167,8 @@
                 "4": "8AM-5PM",
                 "5": "8AM-5PM",
                 "6": "CLOSED"
-            }
+            },
+            "membership": "np"
         },
         {
             "name": "Pleasant Valley Potato Inc",
@@ -174,7 +184,8 @@
                 "4": "8AM-6PM",
                 "5": "8AM-6PM",
                 "6": "CLOSED"
-            }
+            },
+            "membership": "np"
         },
         {
             "name": "Hazard Creek Golf Course",
@@ -190,7 +201,8 @@
                 "4": "7:30AM-8:30PM",
                 "5": "7:30AM-8:30PM",
                 "6": "7:30AM-8:30PM"
-            }
+            },
+            "membership": "np"
         }
     ]
 }
