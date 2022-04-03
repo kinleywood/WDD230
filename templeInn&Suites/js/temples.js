@@ -28,7 +28,7 @@ function displayTemple(temple) {
     let history = document.createElement("p");
     let ordinanceSchedule = document.createElement("p");
     let sessionSchedule = document.createElement("p");
-    let templeClosureSchedule = document.createElement("p");
+    let templeClosureSchedule = document.createElement("ul");
     let picture = document.createElement("img");
 
 // Change the textContent properties
@@ -38,11 +38,11 @@ function displayTemple(temple) {
     address.setAttribute("target", "_blank")
     phone.textContent = temple.phone;
     email.textContent = temple.email;
-    services.textContent = temple.services;
-    history.textContent = temple.history;
+    services.innerHTML = temple.services;
+    history.innerHTML = temple.history;
     ordinanceSchedule.textContent = temple.ordinanceSchedule;
     sessionSchedule.textContent = temple.sessionSchedule;
-    templeClosureSchedule.textContent = temple.templeClosureSchedule;
+    templeClosureSchedule.innerHTML = temple.templeClosureSchedule;
 // Build the image attributes
     picture.setAttribute("src", temple.picture);
     picture.setAttribute("alt", `Image of the ${temple.name}.`);
