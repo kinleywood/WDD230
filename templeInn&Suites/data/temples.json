@@ -34,7 +34,7 @@
             "ordinanceSchedule": "All ordinances are available by appointment only.",
             "sessionSchedule": "All sessions are available by appointment only.",
             "templeClosureSchedule": "Monday, 13 June 2022 - Monday, 27 June 2022 <br>Saturday, 24 December 2022 <br>Saturday, 31 December 2022",
-            "picture": "bernSwitzerlandTemple.jpg"
+            "picture": "images/bernSwitzerlandTemple.jpg"
         },
         {
             "name": "São Paulo Brazil Temple",
@@ -46,7 +46,7 @@
             "ordinanceSchedule": "All ordinances are available by appointment only.",
             "sessionSchedule": "All sessions are available by appointment only.",
             "templeClosureSchedule": "Saturday, 2 April 2022 <br>Monday, 1 August 2022 - Monday, 15 August 2022 <br>Wednesday, 7 September 2022 <br>Saturday, 1 October 2022 <br>Saturday, 24 December 2022 <br>Saturday, 31 December 2022 <br>Sunday, 5 March 2023 - Sunday, 19 March 2023 <br>Saturday, 1 April 2023 - Sunday, 2 April 2023 <br>Thursday, 7 September 2023 <br>Saturday, 30 September 2023 - Sunday, 1 October 2023 <br>Saturday, 23 December 2023 - Monday, 25 December 2023 <br>Saturday, 30 December 2023 - Monday, 1 January 2024",
-            "picture": "saoPauloBrazilTemple.jpg"
+            "picture": "images/saoPauloBrazilTemple.jpg"
         },
         {
             "name": "Manhattan New York Temple",
@@ -58,7 +58,7 @@
             "ordinanceSchedule": "All ordinances are available by appointment only.",
             "sessionSchedule": "All schedule are available by appointment only.",
             "templeClosureSchedule": "Saturday, 2 April 2022 - Sunday, 3 April 2022 <br>Monday, 4 July 2022 <br>Monday, 25 July 2022 - Monday, 8 August 2022 <br>Saturday, 1 October 2022 - Sunday, 2 October 2022 <br>Thursday, 24 November 2022 - Friday, 25 November 2022 <br>Saturday, 24 December 2022",
-            "picture": "manhattanNewYorkTemple.jpg"
+            "picture": "images/manhattanNewYorkTemple.jpg"
         },
         {
             "name": "Raleigh North Carolina Temple",
@@ -70,7 +70,7 @@
             "ordinanceSchedule": "All ordinances are available by appointment only.",
             "sessionSchedule": "All ordinances are available by appointment only.",
             "templeClosureSchedule": "Saturday, 2 April 2022 - Sunday, 3 April 2022 <br>Monday, 9 May 2022 - Monday, 23 May 2022 <br>Saturday, 1 October 2022 - Sunday, 2 October 2022 <br>Monday, 31 October 2022 - Monday, 14 November 2022 <br>Wednesday, 23 November 2022 - Thursday, 24 November 2022 <br>Saturday, 24 December 2022 <br>Saturday, 31 December 2022 (Limited Operations)",
-            "picture": "raleighNorthCarolinaTemple.jpeg"
+            "picture": "images/raleighNorthCarolinaTemple.jpeg"
         }
     ]
 }

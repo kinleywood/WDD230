@@ -1,6 +1,6 @@
 const requestURL = "https://kinleywood.github.io/wdd230/templeInn&Suites/data/temples.json";
-const templeSpotlight = document.querySelector(".templeSpotlight");
-// const cards = document.querySelector(".cards");
+// const templeSpotlight = document.querySelector(".templeSpotlight");
+const cards = document.querySelector(".cards");
 // const gridBtn = document.querySelector(".gridBtn");
 // const listBtn = document.querySelector(".listBtn");
 
@@ -11,7 +11,7 @@ fetch(requestURL)
     })
     .then(function (jsonObject) {
         console.table(jsonObject); 
-        const temples= jsonObject["name"];
+        const temples= jsonObject["temples"];
         temples.forEach(displayTemple);
     });
 
@@ -21,46 +21,44 @@ function displayTemple(temple) {
     // Create elements to add to the document
     let card = document.createElement("section");
     let name = document.createElement("h2");
-    let address = document.createElement("p");
+    let address = document.createElement("a");
     let phone = document.createElement("p");
-    let website = document.createElement("a");
-    let logo = document.createElement("img");
-    let hours = document.createElement("p");
+    let email = document.createElement("p");
+    let services = document.createElement("p");
+    let history = document.createElement("p");
+    let ordinanceSchedule = document.createElement("p");
+    let sessionSchedule = document.createElement("p");
+    let templeClosureSchedule = document.createElement("p");
+    let picture = document.createElement("img");
 
-    // Change the textContent properties
+// Change the textContent properties
     name.textContent = temple.name;
     address.textContent = temple.address;
+    address.setAttribute("href", temple.address);
+    address.setAttribute("target", "_blank")
     phone.textContent = temple.phone;
-    website.setAttribute("href", temple.website);
-    website.setAttribute("target", "_blank")
-    website.textContent = temple.website;
-    hours.textContent = todaysHours(temple);
+    email.textContent = temple.email;
+    services.textContent = temple.services;
+    history.textContent = temple.history;
+    ordinanceSchedule.textContent = temple.ordinanceSchedule;
+    sessionSchedule.textContent = temple.sessionSchedule;
+    templeClosureSchedule.textContent = temple.templeClosureSchedule;
+// Build the image attributes
+    picture.setAttribute("src", temple.picture);
+    picture.setAttribute("alt", `Image of the ${temple.name}.`);
 
-    // Build the image attributes
-    logo.setAttribute("src", temple.image);
-    logo.setAttribute("alt", `Logo of ${temple.name}`);
-    // logo.setAttribute("loading", "lazy");
-
-     // Get the temple hours for today
-
-    function todaysHours(temple) {
-        let day = now.getDay();
-        if (temple.hours[day] == "CLOSED") {
-            return "CLOSED TODAY";
-        }
-        else {
-            return `Open from ${temple.hours[day]} today.`;
-        };
-};
     
-
-    // Append to card
+// Append to card
     card.appendChild(name);
-    card.appendChild(logo);
     card.appendChild(address);
     card.appendChild(phone);
-    card.appendChild(website);
-    card.appendChild(hours);
+    card.appendChild(email);
+    card.appendChild(services);
+    card.appendChild(history);
+    card.appendChild(ordinanceSchedule);
+    card.appendChild(sessionSchedule);
+    card.appendChild(templeClosureSchedule);
+    card.appendChild(picture);
 
     // Append to existing HTML
     cards.appendChild(card);
