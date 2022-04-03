@@ -19,6 +19,12 @@
 		border-right: 2px solid rgba(0, 0, 0, 0.5);
 		padding: 15px 10px;
 	}
+	/* ------------------ Body ------------------- */
+	.callToAction {
+		font-size: 2rem;
+		right: 15px;
+		bottom: 15px;
+	}
 
 	/* ----------------- Footer ----------------- */
 	footer {
