@@ -1,6 +1,7 @@
 { "temples":
     [ 
-        {
+        {   
+            "id": "idahoFalls",
             "name": "Idaho Falls Idaho Temple",
             "address": "1000 Memorial Dr, Idaho Falls, ID 83402-3410, United States",
             "phone": "(1) 208-522-7669",
@@ -15,6 +16,7 @@
             "largePicture": "images/idahoFallsIdahoTempleLarge.jpg"
         },
         {
+            "id": "anchorage",
             "name": "Anchorage Alaska Temple",
             "address": "13161 Brayton Dr, Anchorage, AK 99516, United States",
             "phone": "(1) 907-348-7890",
@@ -29,6 +31,7 @@
             "largePicture": "images/anchorageAlaskaTempleLarge.jpg"
         },
         {
+            "id": "bern",
             "name": "Bern Switzerland Temple",
             "address": "Tempelstrass 2 CH-3052 Zollikofen Switzerland",
             "phone": "(41) 31-915-5252",
@@ -43,6 +46,7 @@
             "largePicture": "images/bernSwitzerlandTempleLarge.jpg"
         },
         {
+            "id": "saoPaulo",
             "name": "São Paulo Brazil Temple",
             "address": "Av. Prof. Francisco Morato, 2390 Caxingui 05512-300 São Paulo - SP, Brazil",
             "phone": "(55) 11-3723-7600",
@@ -57,6 +61,7 @@
             "largePicture": "images/saoPauloBrazilTempleLarge.jpg"
         },
         {
+            "id": "manhattan",
             "name": "Manhattan New York Temple",
             "address": "125 Columbus Ave, Fourth Floor, New York, NY, 10023-6514, United States",
             "phone": "(1) 917-441-8220",
@@ -71,6 +76,7 @@
             "largePicture": "images/manhattanNewYorkTempleLarge.jpg"
         },
         {
+            "id": "raleigh",
             "name": "Raleigh North Carolina Temple",
             "address": "574 Bryan Dr, Apex, NC, 27502-4127, United States",
             "phone": "(1) 919-362-4135",

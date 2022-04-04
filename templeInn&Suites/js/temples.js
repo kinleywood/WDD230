@@ -28,7 +28,11 @@ function displayTemple(temple) {
     let ordinanceSchedule = document.createElement("p");
     let sessionSchedule = document.createElement("p");
     let templeClosureSchedule = document.createElement("ul");
-    let picture = document.createElement("img");
+    let picture = document.createElement("picture");
+    let smallImg = document.createElement("source");
+    let mediumImg = document.createElement("source");
+    let largeImg = document.createElement("source");
+    let img = document.createElement("img");
 
 // Change the textContent properties
     name.textContent = temple.name;
@@ -43,12 +47,22 @@ function displayTemple(temple) {
     sessionSchedule.textContent = temple.sessionSchedule;
     templeClosureSchedule.innerHTML = temple.templeClosureSchedule;
 // Build the image attributes
-    picture.setAttribute("src", temple.picture);
-    picture.setAttribute("alt", `Image of the ${temple.name}.`);
+    smallImg.setAttribute("media", "(max-width: 400px)");
+    smallImg.setAttribute("srcset", temple.smallPicture);
+    largeImg.setAttribute("media", "(max-width: 832px)");
+    largeImg.setAttribute("srcset",temple.largePicture);
+    img.setAttribute("src", temple.largePicture);
+    img.setAttribute("alt", `Image of the ${temple.name}.`);
     picture.setAttribute("class", "templeImg");
 
+// Append to picture
+    picture.appendChild(smallImg);
+    picture.appendChild(mediumImg);
+    picture.appendChild(largeImg);
+    picture.appendChild(img);
     
 // Append to card
+    card.appendChild(picture);
     card.appendChild(name);
     card.appendChild(address);
     card.appendChild(phone);
@@ -58,7 +72,7 @@ function displayTemple(temple) {
     card.appendChild(ordinanceSchedule);
     card.appendChild(sessionSchedule);
     card.appendChild(templeClosureSchedule);
-    card.appendChild(picture);
+    
 
     // Append to existing HTML
     cards.appendChild(card);

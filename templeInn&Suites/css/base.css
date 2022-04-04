@@ -106,8 +106,24 @@ section {
 }
 
 /* ------------------ Temples Home ----------------- */
-.templeImg {
+.cards section {
+  margin: 0 auto;
+  position: relative;
+  padding: 10px;
+}
+.cards h2 {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding: 10px;
+  margin: 0;
+}
+.templeImg img {
   width: 100%;
+  max-width: 800px;
+ 
+
+
 }
 
 /* -------------- Footer ------------------ */
