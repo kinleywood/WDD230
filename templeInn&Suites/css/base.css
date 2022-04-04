@@ -91,7 +91,7 @@ h1 {
   margin: 10px;
 }
 
-/* --------------------- Main ---------------- */
+/* --------------------- Main Home ---------------- */
 .holinessToTheLord img {
   width: 100%;
   opacity: 50%;
@@ -103,6 +103,11 @@ h1 {
 }
 section {
 	position: relative;
+}
+
+/* ------------------ Temples Home ----------------- */
+.templeImg {
+  width: 100%;
 }
 
 /* -------------- Footer ------------------ */

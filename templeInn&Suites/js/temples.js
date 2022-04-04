@@ -1,8 +1,7 @@
 const requestURL = "https://kinleywood.github.io/wdd230/templeInn&Suites/data/temples.json";
 // const templeSpotlight = document.querySelector(".templeSpotlight");
 const cards = document.querySelector(".cards");
-// const gridBtn = document.querySelector(".gridBtn");
-// const listBtn = document.querySelector(".listBtn");
+
 
 
 fetch(requestURL)
@@ -24,7 +23,7 @@ function displayTemple(temple) {
     let address = document.createElement("a");
     let phone = document.createElement("p");
     let email = document.createElement("p");
-    let services = document.createElement("p");
+    let services = document.createElement("ul");
     let history = document.createElement("p");
     let ordinanceSchedule = document.createElement("p");
     let sessionSchedule = document.createElement("p");
@@ -46,6 +45,7 @@ function displayTemple(temple) {
 // Build the image attributes
     picture.setAttribute("src", temple.picture);
     picture.setAttribute("alt", `Image of the ${temple.name}.`);
+    picture.setAttribute("class", "templeImg");
 
     
 // Append to card
@@ -65,13 +65,5 @@ function displayTemple(temple) {
 
 };
 
-// gridBtn.addEventListener("click", () => {
-//     cards.classList.add("grid");
-//     cards.classList.remove("list");
-// });
 
-// listBtn.addEventListener("click" , () => {
-//     cards.classList.add("list");
-//     cards.classList.remove("grid");
-// })
 
