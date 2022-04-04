@@ -33,8 +33,10 @@ function displayTemple(temple) {
     let mediumImg = document.createElement("source");
     let largeImg = document.createElement("source");
     let img = document.createElement("img");
+    let div = document.createElement("div");
 
 // Change the textContent properties
+    card.setAttribute("class", temple.id)
     name.textContent = temple.name;
     address.textContent = temple.address;
     address.setAttribute("href", temple.address);
@@ -60,10 +62,13 @@ function displayTemple(temple) {
     picture.appendChild(mediumImg);
     picture.appendChild(largeImg);
     picture.appendChild(img);
+
+// Append to picture
+    div.appendChild(picture);
+    div.appendChild(name);
     
 // Append to card
-    card.appendChild(picture);
-    card.appendChild(name);
+    card.appendChild(div);
     card.appendChild(address);
     card.appendChild(phone);
     card.appendChild(email);

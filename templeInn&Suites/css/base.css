@@ -13,6 +13,13 @@ h2 {
 	text-decoration: none;
 	color: black;
 }
+a {
+  color: black;
+  text-decoration: none;
+}
+a:hover{
+  background-color:#6ccefc;
+}
 /* ---------------- Header ---------------- */
 /* ------------- Nav ----------------- */
 header {
@@ -105,26 +112,34 @@ section {
 	position: relative;
 }
 
-/* ------------------ Temples Home ----------------- */
+/* ------------------ Temples Main ----------------- */
 .cards section {
   margin: 0 auto;
   position: relative;
   padding: 10px;
 }
+section div {
+  position: relative;
+}
 .cards h2 {
   position: absolute;
-  top: 10px;
+  bottom: 10px;
   left: 10px;
   padding: 10px;
   margin: 0;
+  margin-right: 10px;
+  background-color: rgb(244 193 216 / 70%);
+  font-size: 1.3rem;
+}
+.cards h2:hover{
+  background-color:#f4c1d8;
+  cursor: default;
 }
 .templeImg img {
   width: 100%;
   max-width: 800px;
- 
-
-
 }
+
 
 /* -------------- Footer ------------------ */
 footer {

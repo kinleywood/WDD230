@@ -3,7 +3,8 @@
         {   
             "id": "idahoFalls",
             "name": "Idaho Falls Idaho Temple",
-            "address": "1000 Memorial Dr, Idaho Falls, ID 83402-3410, United States",
+            "address": "1000 Memorial Dr, Idaho Falls, ID 83402, United States",
+            "googleMaps": "https://www.google.com/maps/place/Idaho+Falls+Idaho+Temple/@43.5001449,-112.0429144,17z/data=!3m1!4b1!4m5!3m4!1s0x5354595427a86e5b:0xcdb2b244bc351af8!8m2!3d43.5001564!4d-112.0406567?hl=en",
             "phone": "(1) 208-522-7669",
             "email": "idahofallstemple@churchofjesuschrist.org",
             "services": "<li>Clothing rental availible</li><li>No cafeteria availible</li><li>No patron housing availiable</li><li>Distribution center nearby</li>",
@@ -19,6 +20,7 @@
             "id": "anchorage",
             "name": "Anchorage Alaska Temple",
             "address": "13161 Brayton Dr, Anchorage, AK 99516, United States",
+            "googleMaps": "https://www.google.com/maps/place/Anchorage+Alaska+Temple/@61.1017165,-149.8427086,17z/data=!3m1!4b1!4m5!3m4!1s0x56c899875c1be6af:0xcd448439db8bee63!8m2!3d61.1017834!4d-149.8406096?hl=en",
             "phone": "(1) 907-348-7890",
             "email": "anchoragetemple@churchofjesuschrist.org",
             "services": "<li>No clothing rental available</li><li>No cafeteria available</li><li>No patron housing available</li><li>No distribution center nearby</li>",
@@ -33,7 +35,8 @@
         {
             "id": "bern",
             "name": "Bern Switzerland Temple",
-            "address": "Tempelstrass 2 CH-3052 Zollikofen Switzerland",
+            "address": "Tempelstrasse 2, 3052 Zollikofen, Switzerland",
+            "googleMaps": "https://www.google.com/maps/place/Bern+Switzerland+Temple/@46.9727782,7.3973572,13z/data=!4m9!1m2!2m1!1sbern+temple!3m5!1s0x478e3a67ed572b63:0x92d873fb7c944dc!8m2!3d47.001933!4d7.4582141!15sCgtiZXJuIHRlbXBsZZIBK2NodXJjaF9vZl9qZXN1c19jaHJpc3Rfb2ZfbGF0dGVyX2RheV9zYWludHM?hl=en",
             "phone": "(41) 31-915-5252",
             "email": "Berntemple@churchofjesuschrist.org",
             "services": "<li>Clothing rental available</li><li>No cafeteria available</li><li>Patron housing available</li><li>Distribution center nearby</li>",
@@ -48,7 +51,8 @@
         {
             "id": "saoPaulo",
             "name": "São Paulo Brazil Temple",
-            "address": "Av. Prof. Francisco Morato, 2390 Caxingui 05512-300 São Paulo - SP, Brazil",
+            "address": "Av. Prof. Francisco Morato, 2390 - Caxingui, São Paulo - SP, 05512-300, Brazil",
+            "googleMaps": "https://www.google.com/maps/place/S%C3%A3o+Paulo+Brazil+Temple/@-23.5851081,-46.7248817,17z/data=!3m1!4b1!4m5!3m4!1s0x94ce56f1a8089c2d:0x27453bbfc5ed3ca2!8m2!3d-23.5851081!4d-46.722693?hl=en",
             "phone": "(55) 11-3723-7600",
             "email": "saopaulotemple@churchofjesuschrist.org",
             "services": "<li>Clothing rental available</li><li>No cafeteria available</li><li>No patron housing available</li><li>Distribution center nearby</li>",
@@ -63,7 +67,8 @@
         {
             "id": "manhattan",
             "name": "Manhattan New York Temple",
-            "address": "125 Columbus Ave, Fourth Floor, New York, NY, 10023-6514, United States",
+            "address": "Fourth, 125 Columbus Ave, New York, 10023, United States",
+            "googleMaps": "https://www.google.com/maps/place/Manhattan+New+York+Temple/@40.7729961,-75.1023397,8z/data=!3m1!5s0x89c258f514c4cb47:0xcd1d049ae2568a1d!4m9!1m2!2m1!1snew+york+temple!3m5!1s0x89c258f56c8a2fc5:0x98e2f07a82e523fb!8m2!3d40.7729961!4d-73.9817342!15sCg9uZXcgeW9yayB0ZW1wbGWSAStjaHVyY2hfb2ZfamVzdXNfY2hyaXN0X29mX2xhdHRlcl9kYXlfc2FpbnRz?hl=en",
             "phone": "(1) 917-441-8220",
             "email": "manhattantemple@churchofjesuschrist.org",
             "services": "<li>Clothing rental available</li><li>No cafeteria available</li><li>No patron housing available</li><li>Distribution center nearby</li>",
@@ -78,7 +83,8 @@
         {
             "id": "raleigh",
             "name": "Raleigh North Carolina Temple",
-            "address": "574 Bryan Dr, Apex, NC, 27502-4127, United States",
+            "address": "574 Bryan Dr, Apex, NC 27502, United States",
+            "googleMaps": "https://www.google.com/maps/place/Raleigh+North+Carolina+Temple/@35.1888508,-81.5265915,8z/data=!4m9!1m2!2m1!1snorth+carolina+temple!3m5!1s0x89ac92c784588091:0x2be8d0c8f341ccae!8m2!3d35.7320682!4d-78.8615356!15sChVub3J0aCBjYXJvbGluYSB0ZW1wbGWSAStjaHVyY2hfb2ZfamVzdXNfY2hyaXN0X29mX2xhdHRlcl9kYXlfc2FpbnRz?hl=en",
             "phone": "(1) 919-362-4135",
             "email": "raleightemple@churchofjesuschrist.org",
             "services": "<li>No clothing rental available</li><li>No cafeteria available</li><li>No patron housing available</li><li>No distribution center nearby</li>",
