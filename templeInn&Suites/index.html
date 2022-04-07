@@ -20,9 +20,10 @@
       rel="stylesheet"
     />
     <script defer src="js/headerFooter.js"></script>
+    <script defer src="js/favTemple.js"></script>
+    <script defer src="js/weather.js"></script>
   </head>
   <body>
-
     <header>
 			<div>
 				<div>
@@ -58,8 +59,20 @@
         <a class="callToAction button" href="reservations.html">Make a reservation today!</a>
       </section>
 
-      <section class="templeSpotlight">
+      <section class="cards">
+      </section>
 
+      <section class = "weather">
+        <h3>
+          Weather
+        </h3>
+        <picture>
+          <img class="weatherIcon" src="#" alt="Weather icon">
+        </picture>
+        <p class="temperature"><span id="temperature">33</span>&deg;F</p>
+        <p class="sky">Partly Cloudy</p>
+        <p class="windSpeed">Wind Speed: <span id="windSpeed">15</span> mph</p>
+        <p class="windChill">Temperature with Wind Chill: <span id="windChill">N/A</span></p>
       </section>
     </main>
 

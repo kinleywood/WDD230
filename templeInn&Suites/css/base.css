@@ -2,10 +2,11 @@ body {
   font-family: "Nunito Sans", serif;
 }
 h1,
-h2 {
+h2,
+legend{
   font-family: "playfair Display", serif;
 }
-.button {
+.button, .submitBtn {
   border: 4px solid #6ccefc;
 	background-color: #f4c1d8;
 	padding: 10px;
@@ -17,8 +18,12 @@ a {
   color: black;
   text-decoration: none;
 }
-a:hover{
-  background-color:#6ccefc;
+main a:hover{
+  color:rgba(225, 225, 225, 0.9);
+}
+.bold { 
+  font-weight: 800;
+  font-size: 1.1rem;
 }
 /* ---------------- Header ---------------- */
 /* ------------- Nav ----------------- */
@@ -67,8 +72,12 @@ nav ul li a {
 nav ul li.active a {
   background-color: rgba(225, 225, 225, 0.5);
 }
-nav ul li a:hover, .button:hover {
+nav ul li a:hover {
   background-color: rgba(225, 225, 225, 0.7);
+}
+.button:hover, .submitBtn:hover {
+  background-color: rgba(225, 225, 225, 0.7);
+  color: #6ccefc;
 }
 nav ul.open {
   display: block;
@@ -93,7 +102,7 @@ img.logo {
 }
 
 h1 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-style: italic;
   margin: 10px;
 }
@@ -114,16 +123,21 @@ section {
 
 /* ------------------ Temples Main ----------------- */
 .cards section {
-  margin: 0 auto;
+  margin: 5px auto;
   position: relative;
   padding: 10px;
+  border: 2px solid #6ccefc;
+  max-width: 800px;
+}
+.cards section a, .cards section p, .cards section ul, .services div, .services section {
+  background-color: #6ccefc;
 }
 section div {
   position: relative;
 }
 .cards h2 {
   position: absolute;
-  bottom: 10px;
+  bottom: 30px;
   left: 10px;
   padding: 10px;
   margin: 0;
@@ -135,11 +149,124 @@ section div {
   background-color:#f4c1d8;
   cursor: default;
 }
+.hovHistory {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background-color: rgb(108 206 252 / 70%);
+}
+.hovHistory:hover{
+  cursor: default;
+}
+.hovHistory:hover + .history {
+  display: block;
+}
 .templeImg img {
   width: 100%;
   max-width: 800px;
 }
+.likeBtn {
+  font-size: 1.5rem;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  color: #ffffff;
+}
+.likeBtn:hover {
+  color:#6ccefc;
+  cursor:pointer;
+  font-size: 2rem;
+}
+.cards p {
+  margin-block-start: .5rem;
+  margin-block-end: .5rem;
+}
+.cards ul span{
+  margin-left: -40px;
+}
+p.history{
+  display: none;
+  position: absolute;
+  top: 0;
+  padding: 10px;
+  background-color: #6ccefc;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+}
 
+/* ---------------- Reservation Home --------------- */
+form {
+  border: 4px solid #6ccefc;
+  position: relative;
+  margin: 10px 0;
+}
+form fieldset {
+  margin: 10px;
+  border: 2px solid #f4c1d8;
+  background-color: #f4c1d8;
+}
+
+form legend {
+  padding: 0 5px;
+  font-size: 1.3rem;
+  background-color: #ffffff;
+  border: 2px solid #6ccefc;
+}
+
+form label, form div {
+  display: block;
+  padding-top: 14px;
+  font-size: .9rem;
+}
+
+form label input, form label textarea, form label.roomType {
+  display: block;
+  border: 1px solid #000000;
+  padding: 5px;
+  width: 96%;
+  max-width: 20rem;
+}
+
+form input.submitBtn{
+  margin: 10px;
+  max-width: 20rem;
+  border-radius: 0;
+  text-align: left;
+}
+
+form label input:required {
+  border-bottom: 6px solid #6ccefc;
+}
+
+form label input:required:valid {
+  border-bottom: 1px solid black;
+}
+fieldset div label {
+  margin: 5px 0;
+}
+/* -------------------- services --------------------- */
+.services h2{
+  padding: 10px;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+}
+.services div, .services section {
+  margin: 10px;
+}
+.services ul {
+  margin: 0 10px;
+}
+.services li {
+  padding-bottom: 10px;
+}
+.services section p {
+  padding: 10px;
+  margin: 0;
+}
+.services a {
+  display: block;
+  margin: 10px;
+}
 
 /* -------------- Footer ------------------ */
 footer {

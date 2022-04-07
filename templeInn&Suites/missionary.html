@@ -4,10 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Temple Inn & Suites Temples</title>
+    <title>Temple Inn & Suites Services</title>
     <meta 
       name="description"
-      content="Temple Inn & Suites Hotel Chain. Learn about the temples that we provide rooms for. You can find closure scheduels, availible services, addresses, phone numbers, email addresses and a short history of the temple."
+      content="Temple Inn & Suites Hotel Chain. We are the perfect place to stay if you are on a youth trip or you are a temple patron or worker. Book a room with us and you won't be disappointed. We have changing rooms for those that need to change into or out of temple clothes, free breakfast, an indoor pool, and more!"
     />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/base.css" />
@@ -17,10 +17,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Playfair+Display:ital@0;1&display=swap" rel="stylesheet">
     <script defer src="js/headerFooter.js"></script>
-    <script defer src="js/temples.js"></script>
   </head>
   <body>
-
     <header>
 			<div>
 				<div>
@@ -37,18 +35,31 @@
 			</div>
 
       <nav>
-        <ul id="primaryNav"> 
+        <ul id="primaryNav">
           <li><a href=".">Home</a></li>
-          <li class="active"><a href="temples.html">Temples</a></li>
+          <li><a href="temples.html">Temples</a></li>
           <li><a href="reservations.html">Reservations</a></li>
           <li><a href="services.html">Services</a></li>
         </ul>
       </nav>
     </header>
-    <main>
-      <div class="cards"></div>
-    </main>
+    <main class="services missionary">
+        <section>
+            <h2>Full-time Temple Missionary Suites</h2> 
+            <p>We offer fully furnished suites to Full-time Temple Missionaries for long-term stays. The suites include a kitchenette with a mini-fridge, microwave, and stove! The rooms come with a queen size bed and pull out sofa-bed. There is a small table as well! It the perfect cozy and affordable place to stay durring your service! Fill out the form provided for any questions!</p>
+        </section>
+        <form method="GET" action="thankyou.html">
+            <fieldset>
+              <legend>Contact Us</legend>
+              <label class="top">First Name: <input type="text" name="fname" id="fname" required></label>
+              <label class="top">Last Name: <input type="text" name="lname" id="lname" required></label>
+              <label class="top">Email: <input type="email" name="email" id="email" placeholder="something@gmail.com" required></label>
+              <label class="top">Message<textarea name="message" id="message" cols="30" rows="10" required></textarea></label>
+            </fieldset>
     
+            <input type="submit" value="Send Message" class="submitBtn">
+          </form>
+    </main>
     <footer>
       <picture>
         <img class="logo" src="images/templeInn&SuitesLogo.png" alt="Temple Inn & Suites Logo"/>

@@ -43,9 +43,59 @@
         </ul>
       </nav>
     </header>
-    <main>
+
+      <main class="reservations">
+        <section>
+          <h2>Make A Reservation</h1>
+          <form method="GET" action="reservationConformation.html">
+            <fieldset>
+              <legend>Reservation Details</legend>
+              <label>First Name: <input type="text" name="fname" id="fname" required></label>
+              <label>Last Name: <input type="text" name="lname" id="lname" required></label>
+              <label>Home State or Country: <input type="text" name="state" id="state"></label>
+              <label>Phone Number: <input type="tel" name="tel" id="tel" placeholder="208-123-4567" required></label>
+              <label>Email: <input type="email" name="email" id="email" placeholder="email@gmail.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required></label>
+            </fieldset>
       
-    </main>
+            <fieldset>
+              <legend>Reservation Period and Location</legend>
+              <label>Location: <input list="location" required>
+                <datalist id="location">
+                  <option value="Anchorage, Alaska">
+                  <option value="Bern, Switzerland">
+                  <option value="Idaho Falls, Idaho">
+                  <option value="Manhattan, New York">
+                  <option value="Raleigh, North Carolina">
+                  <option value="Sao Paulo, Brazil">
+                </datalist>
+              </label>
+              <label>Check-in Date: <input type="date" name="checkInD" id="checkInD" required></label>
+              <label>Check-in Time: <input type="time" name="checkInT" id="checkInT" required></label>
+              <label>Check-out Date: <input type="date" name="checkOutD" id="checkOutD" required></label>
+              <label>Check-out Time: <input type="time" name="checkOutT" id="checkOutT" required></label>
+            </fieldset>
+
+            <fieldset>
+              <legend>Room Requirements</legend>
+              <label>Rooms: <input type="number" name="rooms" id="rooms" min="1" required></label>
+              <label>Adults (Maximum: 6 total guests/room): <input type="number" name="adults" id="adults" min="1" required></label>
+              <label>Children (Maximum: 6 total guests/room): <input type="number" name="children" id="children" min="0" required></label>
+              <div class="rooms"> Rooms: 
+                <label class="roomType"><input type="checkbox" name="room" id="oneQueen" value="oneQueen" required> One queen bed</label>
+                <label class="roomType"><input type="checkbox" name="room" id="oneKing" value="oneKing" required> One king bed</label>
+                <label class="roomType"><input type="checkbox" name="room" id="twoQueens" value="twoQueens" required> Two queen beds & pull out mattress</label>
+                <label class="roomType"><input type="checkbox" name="room" id="twoKings" value="twoKings" required> Two king beds & pull out mattress</label>
+              </div>
+              <label>Special Accommodations/Comments: <input type="textarea" name="comments" id="comments"></label>
+            </fieldset>
+
+            <input type="submit" value="Make Reservation" class="submitBtn">
+          </form>
+        </section>
+      
+        
+      </main>
+
     <footer>
       <picture>
         <img class="logo" src="images/templeInn&SuitesLogo.png" alt="Temple Inn & Suites Logo"/>

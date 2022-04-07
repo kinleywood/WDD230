@@ -1,6 +1,6 @@
 const requestURL = "https://kinleywood.github.io/wdd230/templeInn&Suites/data/temples.json";
-// const templeSpotlight = document.querySelector(".templeSpotlight");
 const cards = document.querySelector(".cards");
+
 
 
 
@@ -9,12 +9,12 @@ fetch(requestURL)
         return response.json();
     })
     .then(function (jsonObject) {
+        console.table(jsonObject); 
         const temples= jsonObject["temples"];
-        temples.forEach(displayTemple);
-        temples.forEach(likeHistory);
+        favTemple(temples);
     });
 
-function displayTemple(temple) {
+function favTemple(temple) {
     // Create elements to add to the document
     let card = document.createElement("section");
     let name = document.createElement("h2");
@@ -33,34 +33,29 @@ function displayTemple(temple) {
     let largeImg = document.createElement("source");
     let img = document.createElement("img");
     let div = document.createElement("div");
-    let likeBtn = document.createElement("div");
+
 
 // Change the textContent properties
-    card.setAttribute("class", temple.id);
-    name.textContent = temple.name;
-    address.innerHTML = `<span class="bold">Address:</span> ${temple.address}`;
-    address.setAttribute("href", temple.googleMaps);
+    card.setAttribute("class", temple[0].id);
+    name.textContent = temple[0].name;
+    address.innerHTML = `<span class="bold">Address:</span> ${temple[0].address}`;
+    address.setAttribute("href", temple[0].googleMaps);
     address.setAttribute("target", "_blank")
-    phone.innerHTML = `<span class="bold">Phone Number:</span> ${temple.phone}`;
-    email.innerHTML = `<span class="bold">Email:</span> ${temple.email}`;
-    services.innerHTML = `<span class="bold">Availible Services:</span> ${temple.services}`;
+    phone.innerHTML = `<span class="bold">Phone Number:</span> ${temple[0].phone}`;
+    email.innerHTML = `<span class="bold">Email:</span> ${temple[0].email}`;
     hovHistory.textContent = "See temple history!";
     hovHistory.setAttribute("class", "hovHistory");
     hovHistory.setAttribute("id", "history");
-    history.innerHTML = temple.history;
+    history.innerHTML = temple[0].history;
     history.setAttribute("class", "history");
-    ordinanceSchedule.textContent = temple.ordinanceSchedule;
-    sessionSchedule.textContent = temple.sessionSchedule;
-    templeClosureSchedule.innerHTML = `<span class="bold">Temple Closure Schedule:</span> ${temple.templeClosureSchedule}`;
-    likeBtn.innerHTML = "&#10084;";
-    likeBtn.setAttribute("class", "likeBtn");
+   
 // Build the image attributes
     smallImg.setAttribute("media", "(max-width: 400px)");
-    smallImg.setAttribute("srcset", temple.smallPicture);
+    smallImg.setAttribute("srcset", temple[0].smallPicture);
     largeImg.setAttribute("media", "(max-width: 832px)");
-    largeImg.setAttribute("srcset",temple.largePicture);
-    img.setAttribute("src", temple.largePicture);
-    img.setAttribute("alt", `Image of the ${temple.name}.`);
+    largeImg.setAttribute("srcset",temple[0].largePicture);
+    img.setAttribute("src", temple[0].largePicture);
+    img.setAttribute("alt", `Image of the ${temple[0].name}.`);
     picture.setAttribute("class", "templeImg");
 
 // Append to picture
@@ -74,17 +69,15 @@ function displayTemple(temple) {
     div.appendChild(name);
     div.appendChild(hovHistory);
     div.appendChild(history);
-    div.appendChild(likeBtn);
+
     
 // Append to card
     card.appendChild(div);
     card.appendChild(address);
     card.appendChild(phone);
     card.appendChild(email);
-    card.appendChild(services);
-    card.appendChild(ordinanceSchedule);
-    card.appendChild(sessionSchedule);
-    card.appendChild(templeClosureSchedule);
+
+   
     
 
     // Append to existing HTML
