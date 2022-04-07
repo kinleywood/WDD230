@@ -10,20 +10,23 @@ function windChill(t, s){
     }
   }
   // --------------Weather API-------------------
-  const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5583714&units=imperial&appid=a06ca24ed79ff6ee8e5088116862388d";
+  const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=4348599&appid=a06ca24ed79ff6ee8e5088116862388d";
   
   fetch(apiURL)
     .then((response) => response.json())
     .then((jsObject) => {
+      console.table(jsObject);
       const iconSrc= `https://openweathermap.org/img/w/${jsObject.weather[0].icon}.png`;
       const desc = jsObject.weather[0].description;
       const temp = jsObject.main.temp;
       const windSpeed = jsObject.wind.speed;
+      const humidity = jsObject.main.humidity;
       document.querySelector(".weatherIcon").setAttribute("src", iconSrc);
       document.querySelector(".weatherIcon").setAttribute("alt", desc);
       document.querySelector("#temperature").textContent = Math.round(temp);
       document.querySelector(".sky").textContent = desc;
       document.querySelector("#windSpeed").textContent = Math.round(windSpeed);
+      document.querySelector("#humidity").textContent = humidity;
       windChill(temp, windSpeed);
     });
   

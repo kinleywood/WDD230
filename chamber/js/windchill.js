@@ -15,6 +15,7 @@ const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5583714&units
 fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
+    console.table(jsObject);
     const iconSrc= `https://openweathermap.org/img/w/${jsObject.weather[0].icon}.png`;
     const desc = jsObject.weather[0].description;
     const temp = jsObject.main.temp;
