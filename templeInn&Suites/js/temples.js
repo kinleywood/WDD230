@@ -11,7 +11,9 @@ fetch(requestURL)
     .then(function (jsonObject) {
         const temples= jsonObject["temples"];
         temples.forEach(displayTemple);
-        temples.forEach(likeHistory);
+
+        let likeBtn = document.querySelector(".likeBtn");
+        likeBtn.addEventListener("click", toggleColor())
     });
 
 function displayTemple(temple) {
@@ -92,20 +94,8 @@ function displayTemple(temple) {
 
 };
 
-function likeHistory() {
-    // initialize like Button
-    const likeBtn = document.querySelector(".likeBtn");
-    likeBtn.addEventListener("click", toggleLike());
 
-};
-function toggleLike() {
-    console.log("it worked");
+function toggleColor () {
+    console.log("It worked!");
 }
-// document.addEventListener("DOMContentLoaded", displayTemple());
-
-// Show temple history on click:
-
-    // const historyBtn = document.getElementById("history").addEventListener("click", function(e) {
-    //     console.log(e);
-    // });
 
