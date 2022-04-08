@@ -197,6 +197,9 @@ section div {
   cursor:pointer;
   font-size: 2rem;
 }
+.cards section ul {
+  padding: 10px 10px 10px 50px;
+}
 .cards p {
   margin-block-start: .5rem;
   margin-block-end: .5rem;
@@ -263,6 +266,13 @@ form label input:required:valid {
 }
 fieldset div label {
   margin: 5px 0;
+}
+label.roomType {
+  display: inline   ;
+}
+.roomType input {
+  text-align: left;
+  display: inline;
 }
 /* -------------------- services --------------------- */
 .services h2, .weather h2{

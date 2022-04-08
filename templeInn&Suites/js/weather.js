@@ -10,7 +10,8 @@ function windChill(t, s){
     }
   }
   // --------------Weather API-------------------
-  const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=4348599&appid=a06ca24ed79ff6ee8e5088116862388d";
+  const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=4348599&appid=a06ca24ed79ff6ee8e5088116862388d&units=imperial";
+  const dailyApi = "https://api.openweathermap.org/data/2.5/onecall?lat=38.9807&lon=-77.1003&appid=a06ca24ed79ff6ee8e5088116862388d&units=imperial";
   
   fetch(apiURL)
     .then((response) => response.json())
@@ -31,4 +32,19 @@ function windChill(t, s){
     });
   
   
-  
+  fetch(dailyApi)
+   .then((response) => response.json())
+   .then((jsObject) => {
+     console.table(jsObject);
+     const date = new Date();
+     const days = ["Sunday", "Nonday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday", "Monday", "Tuesday"];
+     const today = jsObject.daily[0].feels_like.day;
+     const tomorrow = jsObject.daily[1].feels_like.day;
+     const nextDay = jsObject.daily[2].feels_like.day;
+     document.querySelector(".day").textContent = days[date.getDay()];
+     document.querySelector(".dayTwo").textContent = days[date.getDay()+1];
+     document.querySelector(".dayThree").textContent = days[date.getDay()+2];
+     document.querySelector(".today").innerHTML = `${Math.round(today)}&deg;F`;
+     document.querySelector(".tomorrow").innerHTML = `${Math.round(tomorrow)}&deg;F`;
+     document.querySelector(".nextDay").innerHTML = `${Math.round(nextDay)}&deg;F`;
+   });

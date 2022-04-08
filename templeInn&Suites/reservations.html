@@ -47,7 +47,7 @@
       <main class="reservations">
         <section>
           <h2>Make A Reservation</h1>
-          <form method="GET" action="reservationConformation.html">
+          <form method="GET" action="reservationConfirmation.html">
             <fieldset>
               <legend>Reservation Details</legend>
               <label>First Name: <input type="text" name="fname" id="fname" required></label>
@@ -81,12 +81,13 @@
               <label>Adults (Maximum: 6 total guests/room): <input type="number" name="adults" id="adults" min="1" required></label>
               <label>Children (Maximum: 6 total guests/room): <input type="number" name="children" id="children" min="0" required></label>
               <div class="rooms"> Rooms: 
-                <label class="roomType"><input type="checkbox" name="room" id="oneQueen" value="oneQueen" required> One queen bed</label>
-                <label class="roomType"><input type="checkbox" name="room" id="oneKing" value="oneKing" required> One king bed</label>
-                <label class="roomType"><input type="checkbox" name="room" id="twoQueens" value="twoQueens" required> Two queen beds & pull out mattress</label>
-                <label class="roomType"><input type="checkbox" name="room" id="twoKings" value="twoKings" required> Two king beds & pull out mattress</label>
+                <label class="roomType"><input type="checkbox" name="room" id="oneQueen" value="oneQueen"> One queen bed</label>
+                <label class="roomType"><input type="checkbox" name="room" id="oneKing" value="oneKing"> One king bed</label>
+                <label class="roomType"><input type="checkbox" name="room" id="twoQueens" value="twoQueens"> Two queen beds & pull out mattress</label>
+                <label class="roomType"><input type="checkbox" name="room" id="twoKings" value="twoKings"> Two king beds & pull out mattress</label>
               </div>
-              <label>Special Accommodations/Comments: <input type="textarea" name="comments" id="comments"></label>
+              <label>Special Accommodations/Comments: <textarea name="comments" id="comments" cols="40" rows="10"></textarea></label>
+              
             </fieldset>
 
             <input type="submit" value="Make Reservation" class="submitBtn">
