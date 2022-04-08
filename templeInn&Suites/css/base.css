@@ -156,6 +156,12 @@ section {
 .closeBtn:hover {
   color: rgba(225, 225, 225, 0.7);;
 }
+.threeDayForcast section h2 {
+  background-color: #f4c1d8;
+}
+.threeDayForcast section div {
+  padding: 10px;
+}
 /* ------------------ Temples Main ----------------- */
 .cards section {
   margin: 5px auto;
