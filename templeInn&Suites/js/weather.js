@@ -59,4 +59,28 @@ function windChill(t, s){
      document.querySelector(".nextDay").innerHTML = `${Math.round(nextDay)}&deg;F`;
      document.querySelector(".weatherIconThree").setAttribute("src", weatherIconThree);
      document.querySelector(".weatherIconThree").setAttribute("alt", weatherThree);
+
+
+     if (jsObject.alert) {
+      const alert = document.querySelector("aside");
+      const event = document.createElement("h3");
+      const description = document.createElement("p");
+      const senderName = document.createElement("p");
+      const closeBtn = document.createElement("span");  
+
+      alert.setAttribute("id", "alert");
+      event.textContent = jsObject.alerts.event;
+      description.textContent = jsObject.alerts.description;
+      senderName.textContent = jsObject.alerts.sender_name;
+      closeBtn.setAttribute("class", "closeBtn");
+      closeBtn.setAttribute("onclick", "this.parentElement.style.display='none';");
+      closeBtn.innerHTML = "&times;";
+
+      alert.appendChild(closeBtn);
+      alert.appendChild(event);
+      alert.appendChild(description);
+      alert.appendChild(senderName);
+
+      document.appendChild(alert);
+    };
    });

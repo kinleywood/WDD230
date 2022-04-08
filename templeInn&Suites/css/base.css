@@ -139,6 +139,23 @@ section {
 .weather p:nth-child(3) {
   margin-top: -17px;
 }
+#alert {
+  padding: 20px;
+  background-color: #f4c1d8;
+}
+.closeBtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.closeBtn:hover {
+  color: rgba(225, 225, 225, 0.7);;
+}
 /* ------------------ Temples Main ----------------- */
 .cards section {
   margin: 5px auto;
